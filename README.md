@@ -6,6 +6,15 @@ Final Project
 ### CSS
 * the /css/ folder must be used for all css files.
 * no inline css, i.e. `style=""`
+* lowercase classnames, use hypen (-) for spaces `text-center` `img-header`
+
+#### Common CSS classes (defined in css/main.css)
+* text-center (text-align: center;)
+* no-padding
+* visible (display: inherit !important;)
+* hidden (display: none !important;)
+* standard-img (max-width:100%;height:auto;)
+* **Add more to main.css**
 
 ### Images
 * lowercase filenames  
@@ -13,6 +22,7 @@ Final Project
 * no spaces or special characters
 * mind the filesizes, none should be over 1MB
 * descriptive and short file names
+* alt tags are required, should be descriptive
 `img/header.jpg` `img/fadder/tor.png`
 
 ### Containers and grid system
@@ -24,6 +34,17 @@ Final Project
 </div>
 ```
 
+#### Full Container
+```
+<div class="container-full">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center">Dekker hele skjermen</h1>
+     </div>
+     </div>
+</div>
+```
+#### See example.html for more
 #### Example, 1 column with a header and a paragraph:
 ```
 <div class="row">
@@ -35,6 +56,7 @@ Final Project
 ```
 
 #### Example, 2 columns: 6 + 6 = 12
+```
 <div class="row">
   <div class="col-6">
       empty
@@ -43,3 +65,4 @@ Final Project
       empty
    </div>
 </div>
+```
