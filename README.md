@@ -3,6 +3,11 @@ Final Project
 
 ## Guidelines
 
+### Validators
+http://checkers.eiii.eu/ <- Main one for Accessibility
+https://validator.w3.org/ <- HTML/Markup Validation
+https://jigsaw.w3.org/css-validator/validator.html.en <- CSS
+
 ### CSS
 * the /css/ folder must be used for all css files.
 * no inline css, i.e. `style=""`
