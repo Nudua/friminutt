@@ -29,7 +29,7 @@ body {
 [class*="col-"] {
     float: left;
     padding: 16px;
-   /* border: 1px solid red;  For testing */
+    /*border: 1px solid red; for testing*/
     
 }
 
@@ -95,6 +95,28 @@ body {
 }
 
 .standard-img {
+    border-radius: 100%; /*lage egen for mine bilder-Anders?*/
     max-width: 100%;
     height: auto;
 }
+
+/*FADDERSIDE*/
+.fadder-box{
+    min-height: 170px;
+}
+
+.fadder-info{
+    text-align: center;
+}
+
+.fadder-navn{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.col-4{
+    border: solid black 1px;
+}
+
+
+
