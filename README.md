@@ -16,6 +16,7 @@ https://jigsaw.w3.org/css-validator/validator.html.en <- CSS
 * the /css/ folder must be used for all css files.
 * no inline css, i.e. `style=""`
 * lowercase classnames, use hypen (-) for spaces `text-center` `img-header`
+* do not redefine or add to any of the container classes, just make new classes instead, this goes for `container` `container-full` `col-x` `row` 
 
 #### Common CSS classes (defined in css/main.css)
 * text-center (text-align: center;)
