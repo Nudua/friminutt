@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+        box-sizing: border-box;
+
+}
+
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #fff;
+	font-size: 4vw;
+	font-weight: 600;
+}
+
+h2{
+	margin: 0;
+    
+}
+
+h3{
+	color: #fff;
+	font-size: 2vw;
+	font-weight: 300;
+}
+
+
+/* Main Containers */
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33% !important;
+    }
+
+    .col-2 {
+        width: 16.66% !important;
+    }
+
+    .col-3 {
+        width: 25% !important;
+    }
+
+    .col-4 {
+        width: 33.33% !important;
+    }
+
+    .col-5 {
+        width: 41.66% !important;
+    }
+
+    .col-6 {
+        width: 50% !important;
+    }
+
+    .col-7 {
+        width: 58.33% !important;
+    }
+
+    .col-8 {
+        width: 66.66% !important;
+    }
+
+    .col-9 {
+        width: 75% !important;
+    }
+
+    .col-10 {
+        width: 83.33% !important;
+    }
+
+    .col-11 {
+        width: 91.66% !important;
+    }
+
+    .col-12 {
+        width: 100% !important;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 16px;
+    /* border: 1px solid red;  For testing */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width : 768px) {
+    .container {
+        margin: auto;
+        width: 750px;
+    }
+}
+
+@media (min-width : 992px) {
+    .container {
+        margin: auto;
+        width: 970px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .container {
+        margin: auto;
+        width: 1170px;
+    }
+}
+
+.container-full {
+    width: 100%;
+}
+
+
+
+/*********** ROW + COL ***********/
+.rows{
+	display: block;
+}
+
+.cols{
+	display: inline-block;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.container h3 {
+    color: #000;
+}
+
+
+/*********** NAV ***********/
+
+#nav{
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	text-align: center;
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.7;
+	
+}
+
+@media (max-width: 700px){
+	 .cols {
+		 display: block !important;
+		 
+	}
+}
+
+@media (max-width: 700px){
+	 #nav {
+		 height: 200px; !important;
+		 position: absolute; !important;
+         background-color: #dfdfdf
+		 
+	}
+}
+
+@media (max-width: 700px){
+	 header {
+		 padding-top: 140px;
+		 
+		 
+	}
+}
+
+#nav a{
+	font-size: 1.3em;
+	font-weight: 300;
+	text-decoration: none;
+	color: #000;
+}
+
+#nav li{
+	margin-left: 20px;
+	margin-right: 20px;	
+	margin-top: 17px;
+
+}
+
+/*********** HEADER ***********/
+header{
+	margin-top: 60px;
+	
+}
+
+#app-sh{
+	height: auto;
+	width: 100%;	
+}
+
+.header {
+	position: absolute;
+	padding-top: 21%;	
+	float: left;
+	left: 20%;
+}
+header {
+    margin-top: 0;
+    background-image: url(img/app1-ny.jpg);
+    height:70vh;
+    background-position: bottom;
+    background-size:cover;
+}
+
+/*********** CONTENT ***********/
+
+.forside {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+
+/*********** FOOTER ***********/
+.footer{
+    bottom:0;
+	height: 60px;
+    width: 100%;
+    position: relatice;
+}
+
+.footer > h3 {
+	font-size: 1.2em;
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 10%;
+	color: #000;
+
+}

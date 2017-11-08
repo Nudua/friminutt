@@ -35,60 +35,40 @@
 
 <body>
     <!-- Body content here -->
-
     <!-- Legg content som trenger hele skjermen her, tenker navbar og intro etc, kanskje panels, lag nye klasser hvis det trengs -->
-    <div class="container-full">
-        <div class="row">
-			   <ul class ="nav-index" id="nav">
-		 			<li class="nav-col"><a href="#about">About</a></li>
-		 		 	<li class="nav-col"><a href="#get-started">Get Started</a></li>
-		 		 	<li class="nav-col"><a href="#instructions">Instructions</a></li>
-		 		 	<li class="nav-col"><a href="#contact">Contact</a></li>
-		 	 	</ul>
-            </div>
+    <!-- Legg som regel alt content innenfor en vanlig container -->
+
+
+
+
+    <div class="row-old">
+        <ul class="col-old" id="nav">
+            <li class="col"><a href="#about">About</a></li>
+            <li class="col"><a href="#get-started">Get Started</a></li>
+            <li class="col"><a href="#instructions">Instructions</a></li>
+            <li class="col"><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 
-    <!-- Legg som regel alt content innenfor en vanlig container -->
-    
-	<div class="header-img">
-	
-		<div class="row">
-			<div class="col-6">
-				<div id="textonimg-left">
-					<a id="button" href="#about">Les mer</a>
-				</div>
-			</div>
-			<div class="col-6">
-				<div id="textonimg-right">
-					<a id="button-2" href="#about">Logg inn</a>
-				</div>
-			</div>
-
-				
-		</div>
-		
-	</div>
-	
-	
-	<div class="container footer">
-        <!-- Rows -->
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center">Friminutt - kort sagt</h1>
-            </div>
-            <div class="col-4">
-                <h1 class="text-center">1</h1>
-            </div>
-            <div class="col-4">
-                <h1 class="text-center">2</h1>
-            </div>
-            <div class="col-4">
-                <h1 class="text-center">3</h1>
-            </div>
+    <header>
+        <div class="header">
+            <h1>AMLA</h1>
+            <h3>Get started to day!</h3>
         </div>
 
-    </div>
+        <img class="col-old" id="app-sh" src="img/app1.jpg" alt="App screenshot">
+    </header>
 
+
+    <div class="mainContent">
+        <div class="about section" id="about">
+            <div class="text">
+                <h2>About the app</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
 
     <!-- Scripts that you want to defer loading -->
     <script src="js/site.js"></script>
