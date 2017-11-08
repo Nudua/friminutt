@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* Endre font til det vi vil bruke */
+    font-family: 'Roboto', "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+	
+	background-color: blue;
+}
+
+
+/* Main Containers */
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33% !important;}
+    .col-2 {width: 16.66% !important;}
+    .col-3 {width: 25% !important;}
+    .col-4 {width: 33.33% !important;}
+    .col-5 {width: 41.66% !important;}
+    .col-6 {width: 50% !important;}
+    .col-7 {width: 58.33% !important;}
+    .col-8 {width: 66.66% !important;}
+    .col-9 {width: 75% !important;}
+    .col-10 {width: 83.33% !important;}
+    .col-11 {width: 91.66% !important;}
+    .col-12 {width: 100% !important;}
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 16px;
+   /* border: 1px solid red;  For testing */
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width : 768px) {
+    .container {
+        margin: auto;
+        width: 750px;
+    }
+}
+
+@media (min-width : 992px) {
+    .container {
+        margin: auto;
+        width: 970px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .container {
+        margin: auto;
+        width: 1170px;
+    }
+}
+
+.container-full {
+    width: 100%;
+}
+
+/* -------------- NAV -------------- */
+
+
+.nav-index{
+	margin-top: 0;
+	display: block;
+}
+''
+.nav-col{
+	display: inline-block;
+}
+
+#nav{
+	text-align: center;
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+#nav a{
+	font-size: 1.3em;
+	font-weight: 300;
+	text-decoration: none;
+	color: #000;
+}
+
+#nav li{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 17px;
+}
+
+/* -------------- Header image -------------- */
+
+.header-img{
+	
+	
+}
+
+
+
+/* Common CSS */
+.no-padding {
+    padding:0;
+}
+
+.text-outline {
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.visible {
+    display: inherit !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.standard-img {
+    max-width: 100%;
+    height: auto;
+}
