@@ -71,9 +71,12 @@ body {
 
 .container-full {
     width: 100%;
+    /* ?? */
+    /*
     background-image: no-repeat;
-    max-width: 100%
+    max-width: 100%;
     height: auto;
+    */
 }
 
 /* Common CSS */

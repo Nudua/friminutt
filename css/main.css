@@ -95,12 +95,18 @@ body {
 }
 
 .standard-img {
-    border-radius: 100%; /*lage egen for mine bilder-Anders?*/
+    max-width: 100%;
+    height: auto;
+}
+
+.fadder-img {
+    border-radius: 100%; /*lage egen for mine bilder-Anders? Ja, døpte den om til fadder-img -Tor*/
     max-width: 100%;
     height: auto;
 }
 
 /*FADDERSIDE*/
+/* Notat, unngå å bruke pixel størrelser, bruk em helst 1.0em = 16px */
 .fadder-box{
     min-height: 170px;
 }
@@ -114,9 +120,14 @@ body {
     margin-top: 100px;
 }
 
+/* Du har ikke lov til å skrive om col-4 klassene fordi da gjelder det for alle klassene, lag heller en ny en
+/*
 .col-4{
     border: solid black 1px;
 }
-
+*/
+.fadder-border {
+    border: solid black 1px;
+}
 
 
