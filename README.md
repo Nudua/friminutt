@@ -3,6 +3,10 @@ Final Project
 
 ## Guidelines
 
+### General
+https://github.com/thedaviddias/Front-End-Checklist
+https://axesslab.com/alt-texts/ <- alt tags
+
 ### Validators
 http://checkers.eiii.eu/ <- Main one for Accessibility  
 https://validator.w3.org/ <- HTML/Markup Validation  
