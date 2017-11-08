@@ -4,11 +4,11 @@
 
 body {
     margin: 0;
+	padding: 0;
     /* Endre font til det vi vil bruke */
     font-family: 'Roboto', "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-	
-	background-color: blue;
-}
+/*	background-color: purple;
+*/}
 
 
 /* Main Containers */
@@ -79,8 +79,8 @@ body {
 
 
 .nav-index{
-	margin-top: 0;
 	display: block;
+	margin: 0;
 }
 
 .nav-col{
@@ -92,8 +92,8 @@ body {
 	height: 60px;
 	width: 100%;
 	background-color: #fff;
-	opacity: 0.9;
-}
+/*	opacity: 0.9;
+*/}
 
 #nav a{
 	font-size: 1.3em;
@@ -111,13 +111,60 @@ body {
 /* -------------- Header image -------------- */
 
 .header-img{
-	
+/*	margin-top: -76px;
+*/	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url(../img/bg/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	width: auto;
+	background-color: #fdfdfd;	
+}
+
+#textonimg-left{
+	position: absolute;
+	margin-top: 40vh;
+	left: 40vw;
 	
 }
 
+#textonimg-right{
+	position: absolute;
+	margin-top: 40vh;
+	right: 40vw;
+	
+}
+/* -------------- Footer -------------- */
+
+.footer{
+	height: 40vh;
+}
 
 
 /* Common CSS */
+a {
+	color: #000;
+}
+#button {
+	background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#button-2 {
+	background-color: #d3d3d3;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .no-padding {
     padding:0;
 }
