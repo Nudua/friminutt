@@ -11,7 +11,7 @@ html{
 
 h1{
 	color: #fff;
-	font-size: 4vw;
+	font-size: 7vh;
 	font-weight: 600;
 }
 
@@ -22,7 +22,7 @@ h2{
 
 h3{
 	color: #fff;
-	font-size: 2vw;
+	font-size: 4vh;
 	font-weight: 300;
 }
 
@@ -98,12 +98,14 @@ h3{
 .container {
     width: 100%;
     margin: auto;
+	margin-top: 50px;
 }
 
 @media (min-width : 768px) {
     .container {
         margin: auto;
         width: 750px;
+			margin-top: 50px;
     }
 }
 
@@ -111,6 +113,7 @@ h3{
     .container {
         margin: auto;
         width: 970px;
+			margin-top: 50px;
     }
 }
 
@@ -118,6 +121,7 @@ h3{
     .container {
         margin: auto;
         width: 1170px;
+			margin-top: 50px;
     }
 }
 
@@ -148,16 +152,37 @@ h3{
 
 /*********** NAV ***********/
 
+#nav-log{
+	position: relative;
+	float: right;
+	margin-top: -40px;
+	z-index:101;
+	margin-right: 20px;
+	
+	
+}
+
+#nav-log a{
+	color: #000;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+#eng {
+	margin-right: 10px;
+}
+
 #nav{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 100;
 	text-align: center;
 	height: 60px;
 	width: 100%;
 	background-color: #fff;
-	opacity: 0.7;
-	
+/*	opacity: 0.7;
+*/	
 }
 
 @media (max-width: 700px){
@@ -195,13 +220,11 @@ h3{
 	margin-left: 20px;
 	margin-right: 20px;	
 	margin-top: 17px;
-
 }
 
 /*********** HEADER ***********/
 header{
 	margin-top: 60px;
-	
 }
 
 #app-sh{
@@ -211,16 +234,27 @@ header{
 
 .header {
 	position: absolute;
-	padding-top: 21%;	
+	padding-top: 30vh;	
 	float: left;
 	left: 20%;
 }
+
+
 header {
-    margin-top: 0;
-    background-image: url(img/app1-ny.jpg);
+/*    margin-top: 0;*/
+    background-image: url(img/app1.jpg);
     height:70vh;
-    background-position: bottom;
+    background-position: center;
     background-size:cover;
+}
+
+
+@media (max-width: 700px){
+	 header {
+		 background-position: center;
+		 height: 50vh;
+		 
+	}
 }
 
 /*********** CONTENT ***********/
