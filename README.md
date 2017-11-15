@@ -3,6 +3,13 @@ Final Project
 
 ## Guidelines
 
+### Colors
+
+- #5b94ac - Dark Torquoise
+- #282828 - Dark Grey
+- #fff - White
+#
+
 ### General
 https://github.com/thedaviddias/Front-End-Checklist
 https://axesslab.com/alt-texts/ <- alt tags
