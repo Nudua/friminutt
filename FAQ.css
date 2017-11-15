@@ -24,7 +24,7 @@ li {
 .qList li {
 }
 .qList li a {
-    color: antiquewhite;
+    color: #FFF5EE;
 }
 .qList li a:hover {
     background-color: lightgrey;
