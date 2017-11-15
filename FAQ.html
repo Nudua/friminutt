@@ -14,16 +14,16 @@
     <ul class="qList">
         
         
-        <li id="spm1"><a href="#" onclick="function1()">Får foreldrene mine vite hva jeg spør om?</a> <p style="display: none;" id="svar1">Alt som foregår på chatten er konfidensielt og fadder har taushetsplikt på det dere snakker om.</p></li> 
+        <li id="spm1"><a href="#" onclick="displayFaqAnswer('svar1')">Får foreldrene mine vite hva jeg spør om?</a> <p style="display:none;" id="svar1">Alt som foregår på chatten er konfidensielt og fadder har taushetsplikt på det dere snakker om.</p></li> 
         
         
-        <li id="spm2"><a href="#" onclick="function2()"> Hvordan kan jeg bli fadder?</a> <p style="display: none;" id="svar2">For å bli fadder må man svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis.</p></li> 
+        <li id="spm2"><a href="#" onclick="displayFaqAnswer('svar2')"> Hvordan kan jeg bli fadder?</a> <p style="display:none;" id="svar2">For å bli fadder må man svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis.</p></li> 
         
-        <li id="spm3"><a href="#" onclick="function3()"> Kan jeg bytte fadder?</a> <p style="display: none;" id="svar3">Fadderen som er tildelt til deg er ut ifra dine interesser og hobby. Er du ikke fornøyd med fadderen din kan du bytte til en annen fadder.</p></li> 
+        <li id="spm3"><a href="#" onclick="displayFaqAnswer('svar3')"> Kan jeg bytte fadder?</a> <p style="display:none;" id="svar3">Fadderen som er tildelt til deg er ut ifra dine interesser og hobby. Er du ikke fornøyd med fadderen din kan du bytte til en annen fadder.</p></li> 
         
-         <li id="spm4"><a href="#" onclick="function4()">Hvordan kan jeg få meldt meg inn?</a> <p style="display: none;" id="svar4">Du melder deg inn gjennom feide sitt innlogging. 97 % av skoleelever har et feidenummer. Dette er for at folk ikke skal kunne misbruke tjenesten.</p></li> 
+         <li id="spm4"><a href="#" onclick="displayFaqAnswer('svar4')">Hvordan kan jeg få meldt meg inn?</a> <p style="display: none;" id="svar4">Du melder deg inn gjennom feide sitt innlogging. 97 % av skoleelever har et feidenummer. Dette er for at folk ikke skal kunne misbruke tjenesten.</p></li> 
         
-        <li id="spm5"><a href="#" onclick="function5()">Hvem er disse faddere?</a> <p style="display: none;" id="svar5">Fadderen er frivillig mennesker, de fleste studenter som må gjennomgå en prosess hvor man må svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis for å kunne bli fadder.</p></li> 
+        <li id="spm5"><a href="#" onclick="displayFaqAnswer('svar5')">Hvem er disse faddere?</a> <p style="display: none;" id="svar5">Fadderen er frivillig mennesker, de fleste studenter som må gjennomgå en prosess hvor man må svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis for å kunne bli fadder.</p></li> 
         
         
     </ul>
@@ -35,56 +35,17 @@
 </html>
     
 <script>
-    function function1(){
-        if(document.getElementById('svar1').style.display!=("block")){
-            document.getElementById('svar1').style.display = "block";
-          document.getElementById('svar1').innerHTML='Alt som foregår på chatten er konfidensielt og fadder har taushetsplikt på det dere snakker om.';  
-        }
-        else{
-            document.getElementById('svar1').style.display = "none";
-        }
-    }
-    
-    function function2(){
-         if(document.getElementById('svar2').style.display!=("block")){
-            document.getElementById('svar2').style.display = "block";
-          document.getElementById('svar2').innerHTML='For å bli fadder må man svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis.';  
-        }
-        else{
-            document.getElementById('svar2').style.display = "none";
+
+    function displayFaqAnswer(sender) {
+        let svar = document.getElementById(sender);
+
+        if(svar.style.display != 'block') {
+            svar.style.display = 'block';
+        } else {
+            svar.style.display = 'none';
         }
     }
-    
-     function function3(){
-         if(document.getElementById('svar3').style.display!=("block")){
-            document.getElementById('svar3').style.display = "block";
-          document.getElementById('svar3').innerHTML='Fadderen som er tildelt til deg er ut ifra dine interesser og hobby. Er du ikke fornøyd med fadderen din kan du bytte til en annen fadder.';  
-        }
-        else{
-            document.getElementById('svar3').style.display = "none";
-        }
-    }
-    
-       function function4(){
-         if(document.getElementById('svar4').style.display!=("block")){
-            document.getElementById('svar4').style.display = "block";
-          document.getElementById('svar4').innerHTML='Du melder deg inn gjennom feide sitt innlogging. 97 % av skoleelever har et feidenummer. Dette er for at folk ikke skal kunne misbruke tjenesten.';  
-        }
-        else{
-            document.getElementById('svar4').style.display = "none";
-        }
-    }
-    
-     function function5(){
-         if(document.getElementById('svar5').style.display!=("block")){
-            document.getElementById('svar5').style.display = "block";
-          document.getElementById('svar5').innerHTML='Fadderen er frivillig mennesker, de fleste studenter som må gjennomgå en prosess hvor man må svare på undersøkelse, gjennom intervju, oppgi politiattest, og være med på casetrening for å få sertifiseringsbevis for å kunne bli fadder.';
-         
-        }
-        else{
-            document.getElementById('svar5').style.display = "none";
-        }
-    }
+
     </script>    
         
        
