@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="no">
 <head>
-    <link rel="stylesheet" href="FAQ.css"/> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Friminutt - FAQ</title>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Important for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Flere metatags her -->
+    <meta name="language" content="English">
+	
+    <link rel="stylesheet" href="css/FAQ.css"/>
+	<script src="js/site.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     
 </head>
 
 <body>
+    <nav>
+        <div class="rows">
+			
+			<ul class="cols" id="nav-log">
+                <li class="cols" id="eng"><a href="#english">EN</a></li>
+                <li class="cols"><a href="#log-in">Logg inn</a></li>
+			</ul>
+            <ul class="cols" id="nav">
+                <li class="cols"><a href="side1.html">Side 1</a></li>
+                <li class="cols"><a href="side2.html">Side 2</a></li>
+                <li class="cols"><a href="side3.html">Side 3</a></li>
+                <li class="cols"><a href="side4.html">Side 4</a></li>
+            </ul>
+			
+        </div>
+       
+    </nav>
+	
+	
     <h2 class="headline">F A Q</h2>
     <div class="FAQlist">
         
@@ -41,24 +74,8 @@
         
         
     </div>
-    <div class="quest"><img id=questPic src="quest.jpg" alt="En mann som står ved siden av et spørsmåltegn og ser forvirret ut" /></div>
 </body>
 </html>
-    
-<script>
-
-    function displayFaqAnswer(sender) {
-        let svar = document.getElementById(sender);
-
-        if(svar.style.display != 'block') {
-            svar.style.display = 'block';
-        } else {
-            svar.style.display = 'none';
-        }
-    }
-
-    </script>    
-        
        
         
         

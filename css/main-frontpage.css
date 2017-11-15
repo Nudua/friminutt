@@ -264,6 +264,25 @@ header {
     margin-bottom: 70px;
 }
 
+/*********** FAQ ***********/
+
+.qList{
+	margin-left: 20%;
+}
+
+.questions{
+	margin-top: 50px;
+	width: 60%;
+
+}
+
+.qs{
+	
+}
+
+.ans{
+	
+}
 
 
 /*********** FOOTER ***********/

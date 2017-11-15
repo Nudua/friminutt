@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+        box-sizing: border-box;
+
+}
+
+html{
+	font-family: 'Roboto', sans-serif;
+	background-color: #dfdfdf;
+}
+
+/*********** ROW + COL ***********/
+.rows{
+	display: block;
+}
+
+.cols{
+	display: inline-block;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.container h3 {
+    color: #000;
+}
+
+
+
+/*********** NAV ***********/
+
+#nav-log{
+	position: relative;
+	float: right;
+	margin-top: -40px;
+	z-index:101;
+	margin-right: 20px;
+	
+	
+}
+
+#nav-log a{
+	color: #000;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+#eng {
+	margin-right: 10px;
+}
+
+#nav{
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	text-align: center;
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+/*	opacity: 0.7;
+*/	
+}
+
+@media (max-width: 700px){
+	 .cols {
+		 display: block !important;
+		 
+	}
+}
+
+@media (max-width: 700px){
+	 #nav {
+		 height: 200px; !important;
+		 position: absolute; !important;
+         background-color: #dfdfdf
+		 
+	}
+}
+
+@media (max-width: 700px){
+	 header {
+		 padding-top: 140px;
+		 
+		 
+	}
+}
+
+#nav a{
+	font-size: 1.3em;
+	font-weight: 300;
+	text-decoration: none;
+	color: #000;
+}
+
+#nav li{
+	margin-left: 20px;
+	margin-right: 20px;	
+	margin-top: 17px;
+}
+
+/*--------------------------------------*/
+
+a.FAQ {color: blue;
+}
+
+li {
+    line-height: 2em;
+}
+
+.qList {
+    font-size: 1.5em;
+    list-style-type: square;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.qList li {
+}
+.qList li a {
+    color: #FFF5EE;
+}
+.qList li a:hover {
+    background-color: lightgrey;
+}
+.qList li a:visited {
+    color: antiquewhite;
+}
+
+.headline {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.FAQlist{
+    width: 54%;
+    margin:0;
+    display: inline-block;
+    
+}
+
+.quest {
+    display: inline-block;
+    width:44%;
+    height: 16em;
+}
+#questPic {
+   width: 70%;
+    height: 80%;
+    margin:0;
+    
+}
