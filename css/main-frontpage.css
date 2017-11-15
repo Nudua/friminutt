@@ -246,7 +246,7 @@ header{
 }
 
 .header-faq {
-	padding-top: 30vh;
+	padding-top: 7vh;
 }
 
 
@@ -258,8 +258,8 @@ header{
 }
 
 #faq-head{
-    background-color: #282828;
-    height:70vh;
+    background-color: #5b94ac;
+    height:40vh;
     background-position: center;
     background-size:cover;
 }
@@ -284,16 +284,20 @@ header{
 
 
 .questions{
-	margin-left: 10%;
 	margin-top: 50px;
-	width: 80%;
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 
-.qs{
+.qs {
+	color: #282828;
+	font-size: 1.8em;
 	
 }
 
 .ans{
+	margin-top: 4px;
+	font-size: 1.3em;
 	
 }
 
