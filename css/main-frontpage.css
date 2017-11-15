@@ -314,3 +314,15 @@ header{
 	color: #000;
 
 }
+div.tilbakeTil{
+   position: absolute;
+     left: 95%;
+    bottom 90%;
+    margin-bottom: 1em;
+   
+}
+
+img#arrowUp{
+     width: 3.2em;
+    height: 3.2em;
+}
