@@ -50,5 +50,5 @@ function changeFadder(index) {
     text.innerHTML = fadder.info;
     image.src = fadder.imagePath;
 
-    console.log(fadder);
+    //console.log(fadder);
 }
