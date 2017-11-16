@@ -559,3 +559,14 @@ img#arrowUp{
      width: 3.2em;
     height: 3.2em;
 }
+
+/*apple play og google play*/
+.standard-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.store{
+    height: 200px;
+    width: 200px;
+}
