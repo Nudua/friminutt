@@ -514,21 +514,39 @@ header{
 	line-height: 1.5em;
 }
 
+/*********** TEAM ***********/
+
+.team-img{
+	max-width: 80%;
+	width: 50%;
+	margin: 50px 0 0 0;
+}
+.team{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #5b94ac;
+	text-align: center;
+}
+
 
 /*********** FOOTER ***********/
+
+footer{
+	background-color:#282828;
+}
 .footer{
     bottom:0;
-	height: 60px;
+	height: 90px;
     width: 100%;
-    position: relatice;
+    position: relative;
 }
 
 .footer > h3 {
 	font-size: 1.2em;
 	text-align: right;
-	margin-top: 30px;
+	padding-top:30px;
 	margin-right: 10%;
-	color: #000;
+	color: #fff;
 
 }
 div.tilbakeTil{
