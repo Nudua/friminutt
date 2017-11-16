@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
 
 body {
     margin: 0;
