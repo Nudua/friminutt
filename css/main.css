@@ -120,5 +120,24 @@ body {
     border-radius: 100%;
 }
 
+/*FADDERSIDE SLUTT*/
+/*SPØRRE SKJEMA*/
+.text-box{
+    box-shadow: 3px 3px 3px 3px grey;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
 
+input[type=text]{
+    width: 100%;
+    border-radius: 3px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 3px;
+}
 
