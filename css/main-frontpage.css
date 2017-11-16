@@ -28,6 +28,12 @@ h3{
 	
 }
 
+.title-margin{
+	margin-top: 70px;
+	margin-bottom: 10px;
+	
+}
+
 
 /* Main Containers */
 @media only screen and (min-width: 768px) {
@@ -453,6 +459,35 @@ header{
     margin-top: 20px;
     margin-bottom: 70px;
 }
+
+.standard-img {
+    max-width: 100%;
+    height: auto;
+	margin: 10px 0 30px 0;
+}
+
+
+
+/***** FADDERSIDE *****/
+
+.fadder-box{
+    min-height: 11.0em;
+}
+
+.fadder-info{
+    text-align: left;
+}
+
+.fadder-navn{
+    text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
 
 /*********** FAQ ***********/
 
