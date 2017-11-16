@@ -207,7 +207,7 @@ ul.mobile-menu-dropdown {
     width: 100%;
     display: inherit;
 }
-
+/*
 .mobile-menu-dropdown>li>span {
     display: block;
     text-decoration: none;
@@ -218,7 +218,7 @@ ul.mobile-menu-dropdown {
     text-transform: uppercase;
     color: #1AA7B7;
     font-weight: 700;
-}
+}*/
 
 .mobile-menu-dropdown>li>a {
     display: block;
