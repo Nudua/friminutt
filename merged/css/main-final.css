@@ -256,7 +256,10 @@ ul.mobile-menu-dropdown {
 .mobile-menu-new {
     display: inline-block;
     /* background-color: white; */
+        /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
     width: 100%;
 }
 
@@ -292,7 +295,10 @@ ul.mobile-menu-dropdown {
     z-index: 100;
     text-align: center;
     width: 100%;
+        /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
 }
 
 @media (min-width: 768px) {
@@ -338,7 +344,7 @@ ul.mobile-menu-dropdown {
 }
 
 .menu-link {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 300;
     text-decoration: none;
     color: #000;
@@ -351,6 +357,11 @@ ul.mobile-menu-dropdown {
 
 .menu-link:hover {
     text-decoration: underline;
+        /*
+    background-color: #5b94ac;
+    */
+    background-color: #265C73;
+    color:white;
 }
 
 
@@ -445,7 +456,10 @@ header{
 }
 
 #faq-head{
+        /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
     height:40vh;
     background-position: center;
     background-size:cover;
@@ -531,8 +545,12 @@ header{
 .team{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #5b94ac;
-	text-align: center;
+        /*
+    background-color: #5b94ac;
+    */
+    background-color: #265C73;
+    text-align: center;
+    color:white;
 }
 
 
@@ -584,25 +602,29 @@ p {
 
 /* Submenu CSS */
 .submenu-link {
-    font-size: 1.0em;
+    font-size: 1.2em;
     font-weight: 300;
     text-decoration: none;
     color: white;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 0.8em;
+    padding-top: 1.1em;
     padding-bottom: 0.8em;
     display: block;
 }
 
 .submenu-link:hover {
     text-decoration: underline;
+    background-color: #265C73;
 }
 
 .submenu {
     position: fixed;
     top: 58px;
+        /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
     z-index: 99;
     display: none;
 }
@@ -649,7 +671,10 @@ p {
     line-height: 1.5;
     text-transform: uppercase;
     font-weight: 700;
+        /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
     color: white;
 }
 
@@ -664,8 +689,12 @@ p {
 /* Submenu CSS end */
 
 .main-menu-active {
+    /*
     background-color: #5b94ac;
+    */
+    background-color: #265C73;
     color: white;
+    text-decoration: underline;
 }
 
 .content-margin {
