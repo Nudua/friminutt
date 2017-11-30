@@ -478,9 +478,7 @@ header {
     }
 }
 
-.header-faq {
-	padding-top: 7vh;
-}
+
 
 
 #main-head{
@@ -490,15 +488,7 @@ header {
     background-size:cover;
 }
 
-#faq-head{
-        /*
-    background-color: #5b94ac;
-    */
-    background-color: #265C73;
-    height:40vh;
-    background-position: center;
-    background-size:cover;
-}
+
 
 
 @media (max-width: 700px){
@@ -813,4 +803,49 @@ p {
 a {
     color: white;
     text-decoration: underline;
+}
+
+.margin-faq {
+    margin-top:0;
+    margin-bottom: 4em;
+}
+
+.faq-header {
+    font-size: 2.0rem;
+}
+
+.header-faq {
+	padding-top: 4vh;
+}
+
+.faq-subheader {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.faq-head{
+    background-color: #265C73;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) { 
+    .faq-header {
+        font-size: 4.5em;
+    }
+
+    .faq-head{
+        background-color: #265C73;
+        height: 30vh;
+    }
+
+    .header-faq {
+        padding-top: 7vh;
+    }
+}
+
+.margin-problem {
+    margin-top: 3em;
+    margin-bottom: 4em;
 }
