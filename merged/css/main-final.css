@@ -327,7 +327,9 @@ ul.mobile-menu-dropdown {
     
     box-shadow: 6px 5px 17px -6px rgba(0, 0, 0, 0.61);
     
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 /* Right size menu */
@@ -347,14 +349,14 @@ ul.mobile-menu-dropdown {
 }
 
 .menu-link {
-    font-size: 1.5em;
+    font-size: 1.0em;
     font-weight: 300;
     text-decoration: none;
     color: #000;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     display: block;
 }
 
@@ -367,10 +369,43 @@ ul.mobile-menu-dropdown {
     color:white;
 }
 
+header {
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+/* Really small screens */
+@media (max-width: 361px) {
+    .menu-link {
+        font-size: 0.9em;
+        font-weight: 300;
+        text-decoration: none;
+        color: #000;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        display: block;
+    }
+}
 
 @media (min-width : 768px) {
-    .menu {
-        display: inherit;
+    .menu-link {
+        font-size: 1.5em;
+        font-weight: 300;
+        text-decoration: none;
+        color: #000;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        display: block;
+    }
+
+    header{
+        margin-top: 58px;
+        text-shadow: 1px 1px 1px #000;
     }
 }
 
@@ -379,22 +414,12 @@ ul.mobile-menu-dropdown {
 }
 
 @media (min-width : 1200px) {
-    .menu > li {
-        display: inline-block;
-        float: none;
+    .menu {
+        justify-content: center;
     }
 }
 
 
-
-
-
-
-@media (max-width: 768px){
-	 header {
-		 padding-top: 140px;
-	}
-}
 
 /*
 #nav a{
@@ -426,12 +451,6 @@ ul.mobile-menu-dropdown {
 }
 
 /*********** HEADER ***********/
-header{
-	margin-top: 58px;
-	text-shadow: 1px 1px 1px #000;
-	
-	
-}
 
 #app-sh{
 	height: auto;
@@ -446,11 +465,11 @@ header{
 	
 }
 
-@media (max-width : 768px) {
+@media (max-width : 461px) {
     .header-main {
-        padding-top: 1vh !important;
+        padding-top: 3vh !important;
 		float: left;
-		left: 10%;
+		left: 5%;
     }
 }
 
