@@ -436,10 +436,18 @@ header{
 
 .header-main {
 	position: absolute;
-	padding-top: 30vh;	
+	padding-top: 20vh;	
 	float: left;
 	left: 20%;
 	
+}
+
+@media (max-width : 768px) {
+    .header-main {
+        padding-top: 1vh !important;
+		float: left;
+		left: 10%;
+    }
 }
 
 .header-faq {
