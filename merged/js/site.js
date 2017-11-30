@@ -18,12 +18,12 @@ function toggleNewMobileMenu() {
         dropdown.style.display = "inherit";
 
         dropdownImage.src = "img/hamburger-menu-close.png";
-        menuButton.innerHTML = "Lukk";
+        menuButton.innerHTML = "Close";
     }
     else {
         dropdown.style.display = "none";
         dropdownImage.src = "img/hamburger-menu-open.png";
-        menuButton.innerHTML = "Meny";
+        menuButton.innerHTML = "Menu";
     }
 }
 
