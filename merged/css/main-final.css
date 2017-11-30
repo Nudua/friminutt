@@ -105,14 +105,14 @@ h3{
 .container {
     width: 100%;
     margin: auto;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 @media (min-width : 768px) {
     .container {
         margin: auto;
         width: 750px;
-			margin-top: 140px;
+			margin-top: 50px;
     }
 }
 
@@ -120,7 +120,7 @@ h3{
     .container {
         margin: auto;
         width: 970px;
-			margin-top: 140px;
+			margin-top: 50px;
     }
 }
 
@@ -128,12 +128,16 @@ h3{
     .container {
         margin: auto;
         width: 1170px;
-			margin-top: 140px;
+			margin-top: 50px;
     }
 }
 
 .container-full {
     width: 100%;
+}
+
+.content-margin{
+	margin-top: 140px;
 }
 
 
