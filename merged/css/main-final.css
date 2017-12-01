@@ -588,8 +588,15 @@ header {
 .problem-text-p{
 	margin-top: 20px;
 	color: #ffffff;
-	margin-left: 15vw;
-	margin-right: 15vw;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+@media (min-width : 768px) { 
+    .problem-text-p{
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
 }
 
 
