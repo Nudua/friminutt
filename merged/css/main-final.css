@@ -27,11 +27,12 @@ h3{
 	font-weight: 300;
 	
 }
-
+/*
 li{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+*/
 
 .title-margin{
 	margin-top: 70px;
@@ -573,9 +574,8 @@ header {
 
 .color-full{
 	margin-top: -5px;
-	background-color: #282828;
-	height: 50vh;
-	
+    background-color: #282828;
+    padding-bottom: 2.5em;
 }
 
 .overgang{
@@ -956,9 +956,28 @@ a {
 }
 
 .margin-problem {
-    margin-top: 3em;
-    margin-bottom: 4em;
+    margin-top: 4em;
+    margin-bottom: 2em;
 }
+
+.problem-header {
+    font-size: 1.5em !important;
+}
+
+@media (min-width: 768px) {
+    .margin-problem {
+        margin-top: 5em;
+        margin-bottom: 4em;
+    }
+
+    .problem-header {
+        font-size: 3em !important;
+    }
+}
+
+
+
+
 
 .submenu-link {
     font-size: 1.0em;
