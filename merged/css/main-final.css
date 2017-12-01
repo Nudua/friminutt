@@ -667,12 +667,15 @@ p {
 .submenu {
     position: fixed;
     top: 34px;
+    /*
     font-size: 0.9em;
+    */
         /*
     background-color: #5b94ac;
     */
     background-color: #265C73;
     z-index: 99;
+    color:white;
     /*
     display: none;
     */
@@ -848,4 +851,25 @@ a {
 .margin-problem {
     margin-top: 3em;
     margin-bottom: 4em;
+}
+
+.submenu-link {
+    font-size: 1.0em;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: block;
+    border-right: solid black 1px;
+}
+
+.submenu-color {
+    color: white;
+}
+
+.border-left {
+    border-left: solid black 1px;
 }
