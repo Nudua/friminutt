@@ -919,3 +919,24 @@ div#getNotified {
     margin: 0;
     
 }
+
+.comingSoon{
+    position:absolute;top:60%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);           padding: 1em 1em 1em 1em !important;
+    /*background-color: black;*/
+    border: 1em;
+    font-size: 1.5em;
+}
+input#signUp{
+    background-color: #ffc406;
+    min-height: 3em;
+    min-width: 5em;
+    
+
+}
+input#inputEmail{
+    min-height: 3em;
+    min-width: 10em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    
+}
+input
