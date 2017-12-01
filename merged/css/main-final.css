@@ -568,6 +568,7 @@ header {
 	margin-top: -5px;
 	background-color: #282828;
 	height: 50vh;
+	
 }
 
 .overgang{
@@ -599,6 +600,10 @@ header {
 .fadder-img{
 	max-width: 50%;
 	height: auto;
+}
+.contribution{
+	padding-bottom: 150px;
+	padding-top: 100px;
 }
 
 
