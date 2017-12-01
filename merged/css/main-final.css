@@ -545,13 +545,24 @@ header {
 	float: left;
 }
 
+
 .phone-text-left{
 	color: #282828;
 	font-size: 5em;
 	margin-top: 23vh;
 	text-align: right;
 }
+.phone-text-left-p{
+	color: #282828;
+	font-size: 2em;
+	text-align: right;
+}
 
+.phone-text-right-p{
+	color: #282828;
+	font-size: 2em;
+	text-align: left;
+}
 
 /***** PROBLEM *****/
 
