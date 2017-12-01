@@ -514,6 +514,7 @@ header {
 .phone-img{
 	height: 70vh;
 	max-height:70%;
+	float: right;
 }
 
 .phone-text{
