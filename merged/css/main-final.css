@@ -326,7 +326,7 @@ ul.mobile-menu-dropdown {
     /*
     background-color: #fff;
     */
-    background-color: #265C73;
+    background-color: #275b7b;
     color: white;
     
     box-shadow: 6px 5px 17px -6px rgba(0, 0, 0, 0.61);
@@ -809,11 +809,24 @@ p {
     */
     background-color: #282828;
     color: white;
-    /*
+    
+    
     border-bottom: solid orange 4px;
-    */
-    text-decoration: underline !important;
+    
+    
+    text-decoration: none !important;
 
+}
+
+.main-menu-active:hover {
+    background-color: #282828 !important;
+    color: white !important;
+    
+    
+    border-bottom: solid orange 4px !important;
+    
+    
+    text-decoration: none !important;
 }
 
 .menu-link:hover {
@@ -824,9 +837,9 @@ p {
     background-color: lightgray;
     
     color:black;
-    /*
-    border-bottom: solid orange 4px;
-    */
+    
+    border-bottom: solid lightgray 4px;
+    
 }
 
 .menu-link {
