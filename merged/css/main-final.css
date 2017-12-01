@@ -507,7 +507,7 @@ header {
 }
 
 .standard-img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -550,18 +550,22 @@ header {
     height: auto;
 }
 .problem-img-2 {
-    max-width: 50%;
+    width: 60%;
     height: auto;
 }
 
 .problem-text{
-	padding-top: 50px;
+	padding-top: 70px;
 }
 
 .color-full{
 	margin-top: -5px;
 	background-color: #282828;
 	height: 50vh;
+}
+
+.overgang{
+	margin-top: -100px;
 }
 /***** FADDERSIDE *****/
 
@@ -684,10 +688,7 @@ img#arrowUp{
 }
 
 /*apple play og google play*/
-.standard-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 .store{
     height: 200px;
