@@ -322,8 +322,12 @@ ul.mobile-menu-dropdown {
     /*
     height: 60px;
     */
-	width: 100%;
+    width: 100%;
+    /*
     background-color: #fff;
+    */
+    background-color: #275b7b;
+    color: white;
     
     box-shadow: 6px 5px 17px -6px rgba(0, 0, 0, 0.61);
     
@@ -352,7 +356,7 @@ ul.mobile-menu-dropdown {
     font-size: 1.0em;
     font-weight: 300;
     text-decoration: none;
-    color: #000;
+    color: white;
     padding-left: 0.4em;
     padding-right: 0.4em;
     padding-top: 0.5em;
@@ -370,7 +374,7 @@ ul.mobile-menu-dropdown {
         /*
     background-color: #5b94ac;
     */
-    background-color: #265C73;
+    background-color: orange;
     color:white;
 }
 
@@ -385,8 +389,6 @@ header {
     .menu-link {
         font-size: 0.9em;
         font-weight: 300;
-        text-decoration: none;
-        color: #000;
         padding-left: 0.4em;
         padding-right: 0.4em;
         padding-top: 0.5em;
@@ -399,8 +401,6 @@ header {
     .menu-link {
         font-size: 1.5em;
         font-weight: 300;
-        text-decoration: none;
-        color: #000;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: 0.8em;
@@ -784,7 +784,10 @@ p {
     /*
     background-color: #5b94ac;
     */
+    /*
     background-color: #265C73;
+    */
+    background-color: #282828;
     color: white;
     
     text-decoration: underline;
@@ -804,22 +807,39 @@ p {
     /*
     background-color: #5b94ac;
     */
-    background-color: #265C73;
+    background-color: #282828;
     color: white;
     
+    
     border-bottom: solid orange 4px;
-    text-decoration: underline;
+    
+    
+    text-decoration: none !important;
 
 }
 
+.main-menu-active:hover {
+    background-color: #282828 !important;
+    color: white !important;
+    
+    
+    border-bottom: solid orange 4px !important;
+    
+    
+    text-decoration: none !important;
+}
+
 .menu-link:hover {
-    text-decoration: none;
+    text-decoration: underline;
         /*
     background-color: #5b94ac;
     */
-    background-color: #265C73;
-    color:white;
-    border-bottom: solid orange 4px;
+    background-color: lightgray;
+    
+    color:black;
+    
+    border-bottom: solid lightgray 4px;
+    
 }
 
 .menu-link {
