@@ -873,3 +873,10 @@ a {
 .border-left {
     border-left: solid black 1px;
 }
+
+
+@media (min-width: 768px) {
+    .submenu-fontsize {
+        font-size: 1.4em;
+    }
+}
