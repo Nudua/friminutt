@@ -558,6 +558,12 @@ header {
 	padding-top: 70px;
 }
 
+.problem-text-p{
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+
 .color-full{
 	margin-top: -5px;
 	background-color: #282828;
@@ -575,7 +581,7 @@ header {
 
 .fadder-info{
     text-align: left;
-    height: 150px;
+	margin-bottom: 50px;
 }
 
 .fadder-navn{
