@@ -512,8 +512,14 @@ header {
 }
 
 .phone-img{
-	height: 600px;
+	height: 70vh;
 	max-height:70%;
+}
+
+.phone-text{
+	color: #282828;
+	font-size: 5em;
+	margin-top: 20vh;
 }
 
 
@@ -541,7 +547,6 @@ header {
 	padding: 0;
 	text-align: center;
 }
-
 
 
 
