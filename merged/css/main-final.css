@@ -28,6 +28,11 @@ h3{
 	
 }
 
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .title-margin{
 	margin-top: 70px;
 	margin-bottom: 10px;
@@ -590,6 +595,7 @@ header {
     text-align: left;
 	font-size: 1.2em;
 	margin-bottom: 20px;
+    font-weight: 900;
 	
 }
 
@@ -607,6 +613,11 @@ header {
 	padding-top: 100px;
 }
 
+.img-star{
+    width: 25%;
+    height: auto;
+
+}
 
 /*********** FAQ ***********/
 
