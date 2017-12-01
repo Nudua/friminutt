@@ -520,9 +520,21 @@ header {
 .phone-text{
 	color: #282828;
 	font-size: 5em;
-	margin-top: 20vh;
+	margin-top: 23vh;
 }
 
+.phone-img-right{
+	height: 70vh;
+	max-height:70%;
+	float: left;
+}
+
+.phone-text-left{
+	color: #282828;
+	font-size: 5em;
+	margin-top: 23vh;
+	text-align: right;
+}
 
 
 /***** FADDERSIDE *****/
