@@ -537,6 +537,32 @@ header {
 }
 
 
+/***** PROBLEM *****/
+
+.img-div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.problem-img {
+    max-width: 80%;
+    height: auto;
+}
+.problem-img-2 {
+    max-width: 50%;
+    height: auto;
+}
+
+.problem-text{
+	padding-top: 50px;
+}
+
+.color-full{
+	margin-top: -5px;
+	background-color: #282828;
+	height: 50vh;
+}
 /***** FADDERSIDE *****/
 
 .fadder-box{
@@ -560,7 +586,10 @@ header {
 	padding: 0;
 	text-align: center;
 }
-
+.fadder-img{
+	max-width: 50%;
+	height: auto;
+}
 
 
 /*********** FAQ ***********/
