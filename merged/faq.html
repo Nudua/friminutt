@@ -17,68 +17,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main-final.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <script src="js/site.js"></script>
-    <style type="text/css">
-        h1 {
-            font-size: 10vh;
-        }
-
-        .qs1 {
-            color: #282828;
-            font-size: 1.7em;
-            line-height: 1.5em;
-        }
-
-        .ans1 {
-            margin-top: 4px;
-            font-size: 1.3em;
-            line-height: 1.5em;
-
-            display: none;
-        }
-
-        .qs1:active+.ans1 {
-            display: inherit;
-        }
-
-
-        .toc {
-            list-style: none;
-            /*
-            margin-left: 14vw;
-            margin-right: 14vw;
-            */
-            font-size: 1.4em;
-            margin-top: 40px;
-            line-height: 2.0em;
-            text-align: center;
-        }
-
-        @media (min-width : 768px) { 
-            .toc {
-                margin-top: 50px;
-            }
-        }
-
-        .toc>li>a {
-            /*
-            color: #0645AD;
-            */
-            color: black;
-            text-decoration: underline;
-        }
-
-        .ans {
-            color: black;
-        }
-
-        .questions {
-            padding-top: 64px;
-            margin-top: 0;
-            margin-left: 5vw;
-            margin-right: 5vw;
-        }
-    </style>
 
     <body>
         <!-- Menu Start v0.3 -->
@@ -131,7 +69,7 @@
 
             <div class="row">
                 <div class="col-12">
-                        
+
 
                     <ul class="toc">
                         <li>
@@ -144,25 +82,20 @@
                             <a href="#who">Who can participate?</a>
                         </li>
                         <li>
-                            <a href="#anonymous">Is it anonymous?
-                                <a/>
+                            <a href="#anonymous">Is it anonymous?<a/>
                         </li>
 
                         <li>
-                            <a href="#mentors">Who are the mentors?
-                                <a/>
+                            <a href="#mentors">Who are the mentors?<a/>
                         </li>
                         <li>
-                            <a href="#changementor">Can I change the assigned mentor?
-                                <a/>
+                            <a href="#changementor">Can I change the assigned mentor?<a/>
                         </li>
                         <li>
-                            <a href="#becomementor">How can I become a mentor?
-                                <a/>
+                            <a href="#becomementor">How can I become a mentor?<a/>
                         </li>
                         <li>
-                            <a href="#secret">Do my parents get to know what I am asking about?
-                                <a/>
+                            <a href="#secret">Do my parents get to know what I am asking about?<a/>
                         </li>
                     </ul>
                 </div>
@@ -171,56 +104,63 @@
             <div class="row">
                 <div class="col-12">
 
-                    <div id="signup" class="questions">
-                        <h2  class="qs">How can I sign up?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="signup"></span>How can I sign up?</h2>
                         <p class="ans">You can sign in by using Feide. We have chosen Feide because 97% of Norway's elementary school and
                             high school students have a user on Feide. If you do not have the ability to log in by using
                             Feide you can sign up in our app, or contact us at post.friminutt@gmail.com.</p>
                     </div>
 
-                    <div id="costmoney" class="questions">
-                        <h2 class="qs">Is it free?</h2>
-                        <p class="ans">Yes, Friminutt is a free service. We encourage activities that are free, but we have Partners who sometimes contribute to the cause. This gives us the opportunity to arrange events and activities that
-                        would normally cost money. Businesses that would like to contribute to the organization can e-mail
-                        us at post.friminutt@gmail.com.</p>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="costmoney"></span>Is it free?</h2>
+                        <p class="ans">Yes, Friminutt is a free service. We encourage activities that are free, but we have Partners who
+                            sometimes contribute to the cause. This gives us the opportunity to arrange events and activities
+                            that would normally cost money. Businesses that would like to contribute to the organization
+                            can e-mail us at post.friminutt@gmail.com.</p>
                     </div>
 
-
-
-                    <div id="who" class="questions">
-                        <h2 class="qs">Who can participate?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="who"></span>Who can participate?</h2>
                         <p class="ans">All students in elementary school and high school can participate. It requires a Feide-bruker to
                             sign in, but if your school does not offer this, you can send a e-mail to support@friminutt.no.</p>
                     </div>
 
-                    <div id="anonymous" class="questions">
-                        <h2  class="qs">Is it anonymous?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="anonymous"></span>Is it anonymous?</h2>
                         <p class="ans">The service is not anonymous. You need to login with your Feide user. This is to avoid abuse of the
                             service. It will not be possible for other users to see your profile, and only your mentor will
                             know your identity.</p>
                     </div>
 
-                    <div id="mentors" class="questions">
-                        <h2  class="qs">Who are the mentors?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="mentors"></span>Who are the mentors?</h2>
                         <p class="ans">Most mentors are students from colleges and universities. They have very different backgrounds and
                             interests, but one thing they all have in common is that they want to be here for you!</p>
                     </div>
 
-                    <div id="changementor" class="questions">
-                        <h2  class="qs">Can I change the assigned mentor?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="changementor"></span>Can I change the assigned mentor?</h2>
                         <p class="ans">Mentor that is assigned to you, is based on your interests and hobbies. If you are not satisfied
                             with your mentor, we will help you find a mentor that is right for you. </p>
                     </div>
 
-                    <div id="becomementor" class="questions">
-                        <h2 class="qs">How can I become a mentor?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="becomementor"></span>How can I become a mentor?</h2>
                         <p class="ans">To become a mentor you can og to the mentor page "mentor" located under the page "Solution". There
                             you will find information about the requirements to become a mentor. We hope you will join us!
                         </p>
                     </div>
 
-                    <div id="secret" class="questions">
-                        <h2 class="qs">Do my parents get to know what I am asking about?</h2>
+                    <div class="questions">
+                        <h2 class="qs">
+                            <span id="secret"></span>Do my parents get to know what I am asking about?</h2>
                         <p class="ans">No, what you and your mentor are talking about will be confidential, but we save the chat history
                             to be able to ensure that the work we do holds a high quality. This is also done to prevent misuse
                             of the service. Should the information, that a mentor receives, be of such character that it
@@ -228,19 +168,14 @@
                             for support. The contents of a chat will never be used for marketing or commercial use.</p>
                     </div>
                     <div class="tilbakeTil">
-                        <a id="linkArrowUp" href="#" data-toggle="popover" title="Tilbake til toppen"><img id="arrowUp" alt="Pil symbol skal symbolisere at den går tilbake til toppen av siden" src="img/arrow_up.png"></a> </div>
+                        <a id="linkArrowUp" href="#" data-toggle="popover" title="Tilbake til toppen">
+                            <img id="arrowUp" alt="Pil symbol skal symbolisere at den går tilbake til toppen av siden" src="img/arrow_up.png">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Content End -->
-
-        <!-- Footer Start -->
-        <footer>
-            <div class="footer">
-                <h3> Webproject 2017 | HiOA</h3>
-            </div>
-        </footer>
-        <!-- Footer End -->
 
     </body>
 

@@ -652,23 +652,72 @@ header {
 /*********** FAQ ***********/
 
 
-.questions{
-	margin-top: 50px;
-	margin-left: 5vw;
-	margin-right: 5vw;
+.questions {
+    /*
+    padding-top: 64px;
+    */
+    margin-top: 64px;
 }
 
 .qs {
 	color: #282828;
 	font-size: 1.7em;
-	line-height: 1.5em;
+    line-height: 1.5em;
+    position: relative;
+}
+
+.qs > span {
+    position:absolute; 
+    top:-72px;
 }
 
 .ans{
 	margin-top: 4px;
-	font-size: 1.3em;
-	line-height: 1.5em;
+	font-size: 1.1em;
+    line-height: 1.5em;
+    color:black;
 }
+
+.toc {
+    list-style: none;
+    /*
+    margin-left: 14vw;
+    margin-right: 14vw;
+    */
+    font-size: 1.2em;
+    margin-top: 40px;
+    line-height: 2.0em;
+    text-align: center;
+}
+
+@media (min-width : 768px) { 
+    .toc {
+        margin-top: 50px;
+        font-size: 1.5em;
+    }
+
+    .ans {
+        font-size: 1.3em;
+    }
+
+    .questions {
+        /*
+        padding-top: 64px;
+        */
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+.toc>li>a {
+    /*
+    color: #0645AD;
+    */
+    color: black;
+    text-decoration: underline;
+}
+
+
 
 /*********** TEAM ***********/
 
@@ -731,14 +780,28 @@ footer{
 }
 div.tilbakeTil{
    position: fixed;
-   right: 16px;
-   bottom: 16px;
+   right: 4px;
+   bottom: 4px;
 }
 
 img#arrowUp{
-     width: 3.2em;
-    height: 3.2em;
+    width: 2.5em;
+   height: 2.5em;
 }
+
+@media (min-width : 768px) { 
+    img#arrowUp{
+        width: 3.2em;
+       height: 3.2em;
+   }
+
+   div.tilbakeTil{
+    right: 16px;
+    bottom: 16px;
+ }
+}
+
+
 
 /*apple play og google play*/
 
