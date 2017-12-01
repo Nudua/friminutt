@@ -511,6 +511,11 @@ header {
     height: auto;
 }
 
+.phone-img{
+	height: 600px;
+	max-height:70%;
+}
+
 
 
 /***** FADDERSIDE *****/
