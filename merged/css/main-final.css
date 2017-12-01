@@ -913,3 +913,9 @@ a {
         font-size: 1.4em;
     }
 }
+
+div#getNotified {
+    display: block;
+    margin: 0;
+    
+}
