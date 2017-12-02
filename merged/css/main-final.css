@@ -388,7 +388,7 @@ ul.mobile-menu-dropdown {
     
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
 
 /* Right size menu */
