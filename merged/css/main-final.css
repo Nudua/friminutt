@@ -10,16 +10,26 @@ html{
 }
 
 h1{
-	color: black;
-	font-size: 7vh;
+	color: #fff;
+	font-size: 4em;
 	font-weight: 600;
-    text-align: center;
+    text-align: left;
 	
 }
 .page-title{
 	color: #282828;
-	font-size: 7vh;
+	font-size: 3.7em;
 	font-weight: 600;
+	text-align: center;
+}
+
+.title{
+	color: #fff;
+	font-size: 3.7em;
+	font-weight: 600;
+	text-align: center;
+	
+	
 }
 
 h2{
@@ -30,7 +40,7 @@ h2{
 
 h3{
 	color: #fff;
-	font-size: 4vh;
+	font-size: 2.3em;
 	font-weight: 300;
 }
 
