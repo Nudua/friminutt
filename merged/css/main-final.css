@@ -24,12 +24,17 @@ h1{
 }
 
 .title{
-	color: #fff;
+	color: #282828;
 	font-size: 3.7em;
 	font-weight: 600;
 	text-align: center;
 	
 	
+}
+
+.backdrop{
+	background-color: rgba(28,28,28,0.8);
+	padding: 0px 10px 5px 10px;
 }
 
 h2{
