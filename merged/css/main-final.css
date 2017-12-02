@@ -69,7 +69,7 @@ li{
 @media only screen and (min-width: 768px) { 
 	.page-title{
 		color: #282828;
-		font-size: 3.7em;
+		font-size: 4.3em;
 		font-weight: 600;
 		text-align: center;
 		margin-top: 150px;
@@ -157,14 +157,12 @@ li{
 .container {
     width: 100%;
     margin: auto;
-	margin-top: 50px;
 }
 
 @media (min-width : 768px) {
     .container {
         margin: auto;
         width: 750px;
-			margin-top: 50px;
     }
 }
 
@@ -172,7 +170,6 @@ li{
     .container {
         margin: auto;
         width: 970px;
-			margin-top: 50px;
     }
 }
 
@@ -180,7 +177,6 @@ li{
     .container {
         margin: auto;
         width: 1170px;
-			margin-top: 50px;
     }
 }
 
@@ -584,7 +580,7 @@ header {
 
 .phone-text{
 	color: #282828;
-	font-size: 5em;
+	font-size: 3.5em;
 	margin-top: 23vh;
 }
 
@@ -597,7 +593,7 @@ header {
 
 .phone-text-left{
 	color: #282828;
-	font-size: 5em;
+	font-size: 3.5em;
 	margin-top: 23vh;
 	text-align: right;
 }
@@ -616,8 +612,8 @@ header {
 .phone-text-center{
 	color: #282828;
 	font-size: 2em;
-	margin-top: 23vh;
-	text-align: center;
+/*	margin-top: 30px;
+*/	text-align: center;
 }
 
 /***** PROBLEM *****/
