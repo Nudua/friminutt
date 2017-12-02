@@ -794,7 +794,9 @@ header {
     text-decoration: underline;
 }
 
-
+.mail-link{
+	color: #282828;
+}
 
 /*********** TEAM ***********/
 
