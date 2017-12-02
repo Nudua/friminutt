@@ -20,7 +20,7 @@
     <script src="js/site.js"></script>
 
    
-    <body>
+    <body onload="initMentor();">
        <!-- Menu Start v0.4 -->
        <nav role="navigation">
             <ul class="menu">
@@ -113,10 +113,10 @@
 
 
                     <div id="getNotified" class="text-center">
-                        <form>
-                            <input class="notify-field" type="text email" name="email" placeholder="enter email address">
+                        <form id="mentorForm">
+                            <input id="mentorInput" class="notify-field" type="text email" name="email" placeholder="enter email address">
 
-                            <a class="notify-button" href="#" onclick="javascript:return false;">Notify me</a>
+                            <input type="submit" value="Notify me" class="notify-button" href="#">
                         </form>
                     </div>
                     <p>Leave your email address here and we will contact you as soon as the service goes live.</p>
