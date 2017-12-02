@@ -1305,3 +1305,16 @@ headerBox{
 .mentor-content-margin {
     margin-top: 90px;
 }
+
+/* Index app */
+.getapp {
+    /*
+    padding-top: 300px;
+    */
+    margin-top: 12px;
+}
+.getapp > p {
+    margin-top: 4px;
+    color:white;
+    text-align: left;
+}
