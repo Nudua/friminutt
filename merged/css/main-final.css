@@ -16,21 +16,13 @@ h1{
     text-align: left;
 	
 }
-.page-title{
-	color: #282828;
-	font-size: 3.7em;
-	font-weight: 600;
-	text-align: center;
-    padding-top: 1em;
-}
+
 
 .title{
 	color: #282828;
 	font-size: 3.7em;
 	font-weight: 600;
 	text-align: center;
-	
-	
 }
 
 .backdrop{
@@ -66,9 +58,26 @@ li{
 	margin-bottom: 50px;
 	
 }
+.page-title{
+	color: #282828;
+	font-size: 3.7em;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 70px;
+
+}
+@media only screen and (min-width: 768px) { 
+	.page-title{
+		color: #282828;
+		font-size: 3.7em;
+		font-weight: 600;
+		text-align: center;
+		margin-top: 150px;
+
+	}
+}
 
 .header-title{
-	margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) { 
@@ -557,6 +566,14 @@ header {
 .tegning-img {
     max-width: 80%;
     height: auto;
+}
+
+@media only screen and (min-width: 768px) { 
+    .tegning-img{
+	    max-width: 80%;
+	    height: auto;
+		padding: 0 10% 0 10%;
+    }
 }
 
 .phone-img{
@@ -1194,4 +1211,97 @@ headerBox{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/************ Fadder ************/
+
+.mentor-stats-list {
+    list-style: none;
+}
+
+.fadder-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fadder-navn {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 900;
+
+}
+
+.fadder-steps {
+    display: none;
+}
+
+.fadder-steps-mobile {
+    display: inherit;
+}
+
+.mentor-subtitle {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+.mentor-title {
+    font-size: 2.5em;
+}
+
+@media (min-width: 768px) {
+    .fadder-steps {
+        display: inherit;
+    }
+
+    .fadder-steps-mobile {
+        display: none;
+    }
+
+    .mentor-subtitle {
+        font-size: 1.3em;
+        line-height: 1.4em;
+    }
+
+    .mentor-title {
+        font-size: 3.2em;
+    }
+}
+
+.notify-button {
+    background-color: #275b7b;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.notify-field {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 8px;
+}
+
+.contribution {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.contribution > h2 {
+    margin-bottom: 16px;
+}
+
+.contribution > div {
+    margin-bottom: 16px;
+}
+
+.mentor-content-margin {
+    margin-top: 90px;
 }
