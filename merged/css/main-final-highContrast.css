@@ -11,59 +11,26 @@ html{
 
 h1{
 	color: #fff;
-	font-size: 4em;
+	font-size: 7vh;
 	font-weight: 600;
-    text-align: left;
 	
-}
-.page-title{
-	color: #282828;
-	font-size: 3.7em;
-	font-weight: 600;
-	text-align: center;
-    padding-top: 1em;
-}
-
-.title{
-	color: #282828;
-	font-size: 3.7em;
-	font-weight: 600;
-	text-align: center;
-	
-	
-}
-
-.backdrop{
-	background-color: rgba(28,28,28,0.8);
-	padding: 0px 10px 5px 10px;
 }
 
 h2{
 	margin: 0;
-    text-align: center;
-	font-size:1.9em;
     
 }
 
 h3{
 	color: #fff;
-	font-size: 2.3em;
+	font-size: 4vh;
 	font-weight: 300;
+	
 }
-
-p{
-    text-align: center;
-}
-/*
-li{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-*/
 
 .title-margin{
 	margin-top: 70px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	
 }
 
@@ -190,7 +157,7 @@ li{
 }
 
 .container h3 {
-    color: #000;
+    color: rgb (12,156, 204);
 }
 
 
@@ -355,12 +322,8 @@ ul.mobile-menu-dropdown {
     /*
     height: 60px;
     */
-    width: 100%;
-    /*
+	width: 100%;
     background-color: #fff;
-    */
-    background-color: #275b7b;
-    color: white;
     
     box-shadow: 6px 5px 17px -6px rgba(0, 0, 0, 0.61);
     
@@ -389,13 +352,13 @@ ul.mobile-menu-dropdown {
     font-size: 1.0em;
     font-weight: 300;
     text-decoration: none;
-    color: white;
+    color: #000;
     padding-left: 0.4em;
     padding-right: 0.4em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     display: block;
-    border-right: solid black 1px;
+    border-right: solid white 1px;
 }
 
 .menu-no-border {
@@ -407,7 +370,7 @@ ul.mobile-menu-dropdown {
         /*
     background-color: #5b94ac;
     */
-    background-color: orange;
+    background-color: #265C73;
     color:white;
 }
 
@@ -422,6 +385,8 @@ header {
     .menu-link {
         font-size: 0.9em;
         font-weight: 300;
+        text-decoration: none;
+        color: #000;
         padding-left: 0.4em;
         padding-right: 0.4em;
         padding-top: 0.5em;
@@ -434,6 +399,8 @@ header {
     .menu-link {
         font-size: 1.5em;
         font-weight: 300;
+        text-decoration: none;
+        color: #000;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: 0.8em;
@@ -477,7 +444,7 @@ header {
     font-size: 1.3em;
     font-weight: 300;
     text-decoration: none;
-    color: #000;
+    color: rgb (12,156, 204);
     padding: 1em;
     display: block;
 }
@@ -540,105 +507,12 @@ header {
 }
 
 .standard-img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
-.tegning-img {
-    max-width: 80%;
-    height: auto;
-}
-
-.phone-img{
-	height: 70vh;
-	max-height:70%;
-	float: right;
-}
-
-.phone-text{
-	color: #282828;
-	font-size: 5em;
-	margin-top: 23vh;
-}
-
-.phone-img-right{
-	height: 70vh;
-	max-height:70%;
-	float: left;
-}
 
 
-.phone-text-left{
-	color: #282828;
-	font-size: 5em;
-	margin-top: 23vh;
-	text-align: right;
-}
-.phone-text-left-p{
-	color: #282828;
-	font-size: 2em;
-	text-align: right;
-}
-
-.phone-text-right-p{
-	color: #282828;
-	font-size: 2em;
-	text-align: left;
-}
-
-.phone-text-center{
-	color: #282828;
-	font-size: 2em;
-	margin-top: 23vh;
-	text-align: center;
-}
-
-/***** PROBLEM *****/
-
-.img-div{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.problem-img {
-    max-width: 80%;
-    height: auto;
-}
-.problem-img-2 {
-    width: 60%;
-    height: auto;
-}
-
-.problem-text{
-	padding-top: 70px;
-}
-
-.problem-text-p{
-	margin-top: 20px;
-	color: #ffffff;
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
-
-@media (min-width : 768px) { 
-    .problem-text-p{
-        margin-left: 15vw;
-        margin-right: 15vw;
-    }
-}
-
-
-.color-full{
-	margin-top: -5px;
-    background-color: #282828;
-    padding-bottom: 2.5em;
-    padding-top: 3em;
-}
-
-.overgang{
-	margin-top: -100px;
-}
 /***** FADDERSIDE *****/
 
 .fadder-box{
@@ -647,14 +521,13 @@ header {
 
 .fadder-info{
     text-align: left;
-	margin-bottom: 50px;
+    height: 150px;
 }
 
 .fadder-navn{
-    text-align: left;
+    text-align: center;
 	font-size: 1.2em;
 	margin-bottom: 20px;
-    font-weight: 900;
 	
 }
 
@@ -663,98 +536,39 @@ header {
 	padding: 0;
 	text-align: center;
 }
-.fadder-img{
-	max-width: 50%;
-	height: auto;
-}
-.contribution{
-	padding-bottom: 150px;
-	padding-top: 100px;
-}
 
-.img-star{
-    width: 25%;
-    height: auto;
 
-}
+
 
 /*********** FAQ ***********/
 
 
-.questions {
-    /*
-    padding-top: 64px;
-    */
-    margin-top: 64px;
+.questions{
+	margin-top: 50px;
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 
 .qs {
-	color: #282828;
+	color: white;
 	font-size: 1.7em;
-    line-height: 1.5em;
-    position: relative;
-}
-
-.qs > span {
-    position:absolute; 
-    top:-72px;
+	line-height: 1.5em;
 }
 
 .ans{
 	margin-top: 4px;
-	font-size: 1.1em;
-    line-height: 1.5em;
-    color:black;
+	font-size: 1.3em;
+	line-height: 1.5em;
 }
-
-.toc {
-    list-style: none;
-    /*
-    margin-left: 14vw;
-    margin-right: 14vw;
-    */
-    font-size: 1.2em;
-    margin-top: 40px;
-    line-height: 2.0em;
-    text-align: center;
-}
-
-@media (min-width : 768px) { 
-    .toc {
-        margin-top: 50px;
-        font-size: 1.5em;
-    }
-
-    .ans {
-        font-size: 1.3em;
-    }
-
-    .questions {
-        /*
-        padding-top: 64px;
-        */
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-}
-
-.toc>li>a {
-    /*
-    color: #0645AD;
-    */
-    color: black;
-    text-decoration: underline;
-}
-
-
 
 /*********** TEAM ***********/
 
 .team-img{
-	width: 45%;
+	width: 95%;
+	margin: 50px 0 0 0;
 }
 
-/*@media (min-width : 768px) {
+@media (min-width : 768px) {
     .team-img {
         width: 65%;
     }
@@ -766,7 +580,7 @@ header {
 
 @media (min-width : 1200px) {
 
-}*/
+}
 
 
 .team-text{
@@ -777,15 +591,19 @@ header {
 .team{
 	padding-top: 20px;
 	padding-bottom: 20px;
-    background-color: #265C73;
+        /*
+    background-color: #5b94ac;
+    */
+    background-color: rgb (12,156, 204);
     text-align: center;
     color:white;
 }
 
+
 /*********** FOOTER ***********/
 
 footer{
-	background-color:#282828;
+	background-color: black;
 }
 .footer{
     bottom: 0;
@@ -804,31 +622,20 @@ footer{
 }
 div.tilbakeTil{
    position: fixed;
-   right: 4px;
-   bottom: 4px;
+   right: 16px;
+   bottom: 16px;
 }
 
 img#arrowUp{
-    width: 2.5em;
-   height: 2.5em;
+     width: 3.2em;
+    height: 3.2em;
 }
-
-@media (min-width : 768px) { 
-    img#arrowUp{
-        width: 3.2em;
-       height: 3.2em;
-   }
-
-   div.tilbakeTil{
-    right: 16px;
-    bottom: 16px;
- }
-}
-
-
 
 /*apple play og google play*/
-
+.standard-img {
+    max-width: 100%;
+    height: auto;
+}
 
 .store{
     height: 200px;
@@ -860,15 +667,12 @@ p {
 .submenu {
     position: fixed;
     top: 34px;
-    /*
     font-size: 0.9em;
-    */
         /*
     background-color: #5b94ac;
     */
-    background-color: #265C73;
+    background-color: rgb (12,156, 204);
     z-index: 99;
-    color:white;
     /*
     display: none;
     */
@@ -954,10 +758,7 @@ p {
     /*
     background-color: #5b94ac;
     */
-    /*
     background-color: #265C73;
-    */
-    background-color: #282828;
     color: white;
     
     text-decoration: underline;
@@ -977,39 +778,22 @@ p {
     /*
     background-color: #5b94ac;
     */
-    background-color: #282828;
+    background-color: #265C73;
     color: white;
     
-    
     border-bottom: solid orange 4px;
-    
-    
-    text-decoration: none !important;
+    text-decoration: underline;
 
-}
-
-.main-menu-active:hover {
-    background-color: #282828 !important;
-    color: white !important;
-    
-    
-    border-bottom: solid orange 4px !important;
-    
-    
-    text-decoration: none !important;
 }
 
 .menu-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
         /*
     background-color: #5b94ac;
     */
-    background-color: lightgray;
-    
-    color:black;
-    
-    border-bottom: solid lightgray 4px;
-    
+    background-color: #265C73;
+    color:white;
+    border-bottom: solid orange 4px;
 }
 
 .menu-link {
@@ -1028,20 +812,10 @@ a {
 
 .faq-header {
     font-size: 2.0rem;
-    min-height: 20vh;
-    background-color: #275b7b;
-    width: 100%;
-    max-width: 100%;
 }
 
 .header-faq {
-	
-    min-height: 20vh;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	padding-top: 4vh;
 }
 
 .faq-subheader {
@@ -1050,7 +824,7 @@ a {
 }
 
 .faq-head{
-    background-color: #265C73;
+    background-color: rgb (0, 168, 244) !impotant; 
     height: 30vh;
     background-position: center;
     background-size: cover;
@@ -1062,126 +836,147 @@ a {
     }
 
     .faq-head{
-        background-color: #265C73;
+        background-color: black;
         height: 30vh;
     }
 
     .header-faq {
-        padding-top: 5vh;
+        padding-top: 7vh;
     }
 }
 
 .margin-problem {
-    margin-top: 4em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 4em;
 }
 
-.problem-header {
-    font-size: 1.5em !important;
+.menu-linkChange{
+    color: 12, 156, 204; !important ;
+    background-color: black; !important;
+    
 }
 
-@media (min-width: 768px) {
-    .margin-problem {
-        margin-top: 4em;
-        margin-bottom: 4em;
-    }
+a {
+    background-color: black !important ;
+   
+    color: yellow; !important;
+    
+}
+menu-link{
+   background-color: black !important ; 
+        color: yellow; !important;
+    
+}
 
-    .problem-header {
-        font-size: 3em !important;
-    }
+a.menu-link.main-menu-active{
+    background-color: black !important ; 
+        color: rgb 12,156, 204 !important;
+    
+}
+
+p, h1, h2, h3, {
+     background-color: black  ; 
+        color: yellow; ;
+}
+
+h3 {
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+p{
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+body#heleSiden {
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+div.team{
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+ul.menu {
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+a.menu-link {
+    background-color: black !important ; 
+        color: yellow; !important;
+}
+
+h1 {
+    background-color: black;
+        color: yellow; !important;
+}
+
+div.header-main h1{
+    color: yellow;
+    background-color: none !important; 
+    
+}
+
+html {
+    back
+}
+
+div.col-12 {
+    color: rgb (255, 196, 6) !impotant; 
+    background-color: black !important; 
+}
+body, p, h1, h2, h3 {
+    color: rgb (255, 196, 6) !impotant; 
+    background-color: black ; 
+}
+
+div.header-faq.text-center {
+   background-color: rgb (12,156, 204)
 }
 
 
+HIGH CONTRAST
+
+/* FAQ*/ 
+
+h1.faq-header, h3.faq-subheader {
+    background-color: white !important;
+    color: black !important;
+}
+
+div.col-12 {
+background-color: white;
+}
 
 
-
-.submenu-link {
+.qs {
+    color: rgb (255, 196, 6) !impotant; 
+    background-color: black !important; 
+}
+.menu-link {
     font-size: 1.0em;
     font-weight: 300;
     text-decoration: none;
-    color: white;
+    color: #000;
     padding-left: 0.4em;
     padding-right: 0.4em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     display: block;
-    border-right: solid black 1px;
+    border-right: solid white 1px;
 }
-
-.submenu-color {
-    color: white;
-}
-
-.border-left {
-    border-left: solid black 1px;
-}
-
-
-@media (min-width: 768px) {
-    .submenu-fontsize {
-        font-size: 1.4em;
-    }
-}
-
-div#getNotified {
-    display: block;
-    margin-top: 10px;
-    
-}
-
-.comingSoon{
-     position:absolute;top:65%;left:2%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);           padding: 1em 1em 1em 1em !important;
-    border: 1em;
-    font-size: 1.5em;
-    
-}
-input#signUp{
-    background-color: #ffc406;
-    max-height: 2.6em;
-    max-width: 6em;
-    font-size: 0.7em;
-    padding: 0.35em 0.35em 0.35em 0.35em;
-    
-
-}
-input#inputEmail{
-    max-height: 2.2em;
-    max-width: 20em;
-    padding: 0.35em 0.35em 0.35em 0.35em;
-    font-size: 0.7em;
-}
-#txtCmngSn {
-color: white;
-    font-size: 1em;
-}
-
-
-@media (min-width : 768px) {
-    .comingSoon {  
-     position:absolute;top:72%;left:29%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);           padding: 1em 1em 1em 1em;
-    border: 1em;
-    font-size: 1.5em;      
+@media (min-width: 768px) { 
+    .faq-header {
+        font-size: 4.5em;
+        background-color: white;
+        color: black;
     }
     
-    input#inputEmail{
-    max-height: 2.2em;
-    min-width: 20em;
-    padding: 0.35em 0.35em 0.35em 0.35em;
-    font-size: 0.7em;
-}
-}
-
-h1.problem-header {
-    color:white !important;
-    text-align: center;
-}
-
-headerBox{
-    
-    min-height: 20vh;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    h2 {
+        color: yellow !important;
+    }
+ffc406 gul 
+00A8F3 blå ffc406
