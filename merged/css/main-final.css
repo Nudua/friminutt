@@ -10,9 +10,10 @@ html{
 }
 
 h1{
-	color: #fff;
+	color: black;
 	font-size: 7vh;
 	font-weight: 600;
+    text-align: center;
 	
 }
 .page-title{
@@ -23,6 +24,7 @@ h1{
 
 h2{
 	margin: 0;
+    text-align: center;
     
 }
 
@@ -30,7 +32,10 @@ h3{
 	color: #fff;
 	font-size: 4vh;
 	font-weight: 300;
-	
+}
+
+p{
+    text-align: center;
 }
 /*
 li{
@@ -1011,9 +1016,9 @@ a {
 }
 
 .header-faq {
-	padding-top: 4vh;
+	
     min-height: 20vh;
-    background-color: #275b7b;
+    background-color: white;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1043,7 +1048,7 @@ a {
     }
 
     .header-faq {
-        padding-top: 7vh;
+        padding-top: 5vh;
     }
 }
 
@@ -1109,7 +1114,7 @@ div#getNotified {
      position:absolute;top:65%;left:2%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);           padding: 1em 1em 1em 1em !important;
     border: 1em;
     font-size: 1.5em;
-        border: solid red;
+    
 }
 input#signUp{
     background-color: #ffc406;
