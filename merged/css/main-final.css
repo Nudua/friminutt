@@ -21,6 +21,7 @@ h1{
 	font-size: 3.7em;
 	font-weight: 600;
 	text-align: center;
+    padding-top: 2em;
 }
 
 .title{
@@ -1174,6 +1175,7 @@ h1.problem-header {
 }
 
 headerBox{
+    
     min-height: 20vh;
     background-color: white;
     width: 100%;
