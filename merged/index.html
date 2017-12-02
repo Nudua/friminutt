@@ -17,12 +17,13 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main-final.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <script src="js/site.js"></script>
 
     <style>
 
     </style>
 
-    <body>
+    <body onload="init();">
         <!-- Menu Start v0.4 -->
         <nav role="navigation">
             <ul class="menu">
@@ -54,13 +55,13 @@
 
                 </div>
                 <div class="getapp">
-                    <form>
-                        <input class="notify-field" type="text email" name="email" placeholder="enter email address">
+                    <form id="subscribeForm">
+                        <input id="subscribeInput" class="notify-field" type="text email" name="email" placeholder="enter email address">
 
                         <!--
                                     <a class="notify-button" href="#" onclick="javascript:return false;">Notify me</a>
                                     -->
-                        <input type="submit" class="notify-button" value="submit">
+                        <input type="submit" class="notify-button" onsubmit="subscribeToUpdates();return false;" value="submit">
                     </form>
                     <p>Subscribe to be the first.</p>
                 </div>
