@@ -211,6 +211,10 @@ li{
     color: #000;
 }
 
+.section-color{
+	background-color: #d4d4d4;
+	width: 100%;
+}
 
 /*********** NAV ***********/
 
@@ -585,6 +589,7 @@ header {
 	color: #282828;
 	font-size: 3.5em;
 	margin-top: 23vh;
+	text-align: left;
 }
 
 .phone-img-right{
