@@ -1162,3 +1162,12 @@ color: white;
 h1.problem-header {
     color:white !important;
 }
+
+headerBox{
+    min-height: 20vh;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
