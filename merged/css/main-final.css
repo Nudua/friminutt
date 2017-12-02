@@ -10,16 +10,26 @@ html{
 }
 
 h1{
-	color: black;
-	font-size: 7vh;
+	color: #fff;
+	font-size: 4em;
 	font-weight: 600;
-    text-align: center;
+    text-align: left;
 	
 }
 .page-title{
 	color: #282828;
-	font-size: 7vh;
+	font-size: 3.7em;
 	font-weight: 600;
+	text-align: center;
+}
+
+.title{
+	color: #fff;
+	font-size: 3.7em;
+	font-weight: 600;
+	text-align: center;
+	
+	
 }
 
 h2{
@@ -30,7 +40,7 @@ h2{
 
 h3{
 	color: #fff;
-	font-size: 4vh;
+	font-size: 2.3em;
 	font-weight: 300;
 }
 
@@ -734,11 +744,10 @@ header {
 /*********** TEAM ***********/
 
 .team-img{
-	width: 95%;
-	margin: 50px 0 0 0;
+	width: 45%;
 }
 
-@media (min-width : 768px) {
+/*@media (min-width : 768px) {
     .team-img {
         width: 65%;
     }
@@ -750,7 +759,7 @@ header {
 
 @media (min-width : 1200px) {
 
-}
+}*/
 
 
 .team-text{
@@ -761,14 +770,10 @@ header {
 .team{
 	padding-top: 20px;
 	padding-bottom: 20px;
-        /*
-    background-color: #5b94ac;
-    */
     background-color: #265C73;
     text-align: center;
     color:white;
 }
-
 
 /*********** FOOTER ***********/
 
@@ -1161,4 +1166,13 @@ color: white;
 
 h1.problem-header {
     color:white !important;
+}
+
+headerBox{
+    min-height: 20vh;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
