@@ -434,7 +434,11 @@ ul.mobile-menu-dropdown {
 }
 
 .menu-link:focus {
-    border: solid white 2px;
+    border: solid orange 4px;
+}
+
+a:focus {
+    border:solid orange 4px;
 }
 
 header {
