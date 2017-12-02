@@ -620,9 +620,19 @@ header {
 
 .phone-text-center{
 	color: #282828;
-	font-size: 1.7em;
+    font-size: 1.15em;
+    line-height: 1.5em;
 /*	margin-top: 30px;
 */	text-align: center;
+}
+
+@media (min-width : 768px) { 
+    .phone-text-center{
+        color: #282828;
+        font-size: 1.7em;
+    /*	margin-top: 30px;
+    */	text-align: center;
+    }
 }
 
 .solution-button{
@@ -663,7 +673,7 @@ header {
 .problem-text-p{
 	margin-top: 20px;
 	color: #ffffff;
-    font-size: 1.7em;
+    font-size: 1.15em;
     line-height: 1.5em;
 }
 
@@ -671,6 +681,7 @@ header {
     .problem-text-p{
         margin-left: 15vw;
         margin-right: 15vw;
+        font-size: 1.7em;
     }
 }
 
@@ -749,7 +760,7 @@ header {
 
 .ans{
 	margin-top: 4px;
-	font-size: 1.1em;
+	font-size: 1.15em;
     line-height: 1.5em;
     color:black;
     text-align: left;
