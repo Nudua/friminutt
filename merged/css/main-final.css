@@ -576,34 +576,38 @@ header {
 }
 
 .tegning-img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
 @media only screen and (min-width: 768px) { 
     .tegning-img{
-	    max-width: 80%;
+	    width: 80%;
 	    height: auto;
 		padding: 0 10% 0 10%;
     }
 }
 
 .phone-img{
+    /*
 	height: 70vh;
-	max-height:70%;
+    max-height:70%;
+    */
+    width: 90%;
+    height: auto;
 	float: right;
 }
 
 .phone-text{
 	color: #282828;
 	font-size: 3.5em;
-	margin-top: 23vh;
+	margin-top: 14vh;
 	text-align: left;
 }
 
 .phone-img-right{
-	height: 70vh;
-	max-height:70%;
+    width: 90%;
+    height: auto;
 	float: left;
 }
 
@@ -906,7 +910,7 @@ img#arrowUp{
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 /* Submenu CSS */
