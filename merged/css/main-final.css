@@ -569,6 +569,13 @@ header {
 	text-align: left;
 }
 
+.phone-text-center{
+	color: #282828;
+	font-size: 2em;
+	margin-top: 23vh;
+	text-align: center;
+}
+
 /***** PROBLEM *****/
 
 .img-div{
