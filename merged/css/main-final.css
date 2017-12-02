@@ -734,11 +734,10 @@ header {
 /*********** TEAM ***********/
 
 .team-img{
-	width: 95%;
-	margin: 50px 0 0 0;
+	width: 45%;
 }
 
-@media (min-width : 768px) {
+/*@media (min-width : 768px) {
     .team-img {
         width: 65%;
     }
@@ -750,7 +749,7 @@ header {
 
 @media (min-width : 1200px) {
 
-}
+}*/
 
 
 .team-text{
@@ -761,14 +760,10 @@ header {
 .team{
 	padding-top: 20px;
 	padding-bottom: 20px;
-        /*
-    background-color: #5b94ac;
-    */
     background-color: #265C73;
     text-align: center;
     color:white;
 }
-
 
 /*********** FOOTER ***********/
 
