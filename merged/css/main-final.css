@@ -1467,3 +1467,7 @@ input {
     border-radius: 0;
     -webkit-appearance: none;
 }
+
+.whywhowhat-margin {
+    margin-top: 60px;
+}
