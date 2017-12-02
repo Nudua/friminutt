@@ -21,7 +21,7 @@ h1{
 	font-size: 3.7em;
 	font-weight: 600;
 	text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .title{
@@ -1173,6 +1173,7 @@ color: white;
 
 h1.problem-header {
     color:white !important;
+    text-align: center;
 }
 
 headerBox{
