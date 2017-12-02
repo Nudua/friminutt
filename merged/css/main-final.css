@@ -1373,3 +1373,93 @@ headerBox{
     color:white;
     text-align: left;
 }
+
+/* Solution css */
+
+.text-right {
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.some-padding {
+    padding: 8px;
+}
+
+
+
+.float-right {
+    float: none;
+}
+
+.float-left {
+    float: none;
+}
+
+.solution-container {
+    text-align: center;
+}
+
+.solution-container>div>h2 {
+    font-size: 2.0em;
+    margin-top: 8px;
+}
+
+.solution-container>div>p {
+    font-size: 1.15em;
+}
+
+
+.solution-container>div>img {
+    width: 90%;
+    height: auto;
+}
+
+
+.solution-mobile-only {
+    display: inherit;
+}
+
+.solution-desktop-only {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .solution-container>div>img {
+        width: 90%;
+        height: auto;
+    }
+
+    .solution-container>div>h2 {
+        font-size: 3.5em;
+        margin-top: 14vh;
+    }
+
+    .solution-container>div>p {
+        font-size: 1.7em;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .solution-desktop-only {
+        display: inherit;
+    }
+
+    .solution-mobile-only {
+        display: none;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .float-left {
+        float: left;
+    }
+}
+
+/* Solution css end */
