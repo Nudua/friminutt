@@ -408,7 +408,7 @@ ul.mobile-menu-dropdown {
 }
 
 .menu-link {
-    font-size: 1.0em;
+    font-size: 0.9em;
     font-weight: 300;
     text-decoration: none;
     color: white;
@@ -440,9 +440,9 @@ header {
 
 
 /* Really small screens */
-@media (max-width: 361px) {
+@media (max-width: 381px) {
     .menu-link {
-        font-size: 0.9em;
+        font-size: 0.75em;
         font-weight: 300;
         padding-left: 0.4em;
         padding-right: 0.4em;
@@ -452,7 +452,7 @@ header {
     }
 }
 
-@media (min-width : 768px) {
+@media (min-width : 930px) {
     .menu-link {
         font-size: 1.5em;
         font-weight: 300;
