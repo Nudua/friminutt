@@ -19,6 +19,97 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <script src="js/site.js"></script>
 
+    <style>
+        .mentor-stats-list {
+            list-style: none;
+        }
+
+        .fadder-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .fadder-navn {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: 900;
+
+        }
+
+        .fadder-steps {
+            display: none;
+        }
+
+        .fadder-steps-mobile {
+            display: inherit;
+        }
+
+        .mentor-subtitle {
+            font-size: 1.1em;
+            line-height: 1.3em;
+        }
+
+        .mentor-title {
+            font-size: 2.5em;
+        }
+
+        @media (min-width: 768px) {
+            .fadder-steps {
+                display: inherit;
+            }
+
+            .fadder-steps-mobile {
+                display: none;
+            }
+
+            .mentor-subtitle {
+                font-size: 1.3em;
+                line-height: 1.4em;
+            }
+
+            .mentor-title {
+                font-size: 2.9em;
+            }
+        }
+
+        .notify-button {
+            background-color: #275b7b;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 12px 18px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+        }
+
+        .notify-field {
+            font-size: 1em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 6px;
+            padding-right: 6px;
+            margin-right: 8px;
+        }
+
+        .contribution {
+            padding-bottom: 5vh;
+            padding-top: 5vh;
+        }
+
+        .contribution > h2 {
+            margin-bottom: 16px;
+        }
+
+        .contribution > div {
+            margin-bottom: 16px;
+        }
+
+
+    </style>
+
     <body>
         <!-- Menu Start v0.3 -->
         <nav role="navigation">
@@ -33,7 +124,7 @@
                     <a title="This is a button that takes you to the Solution page" class="menu-link" href="solution.html">Solution</a>
                 </li>
                 <li>
-                    <a title="This is a button that takes you to the Solution page" class="menu-link main-menu-active" href="fadder_info.html">Fadder</a>
+                    <a title="This is a button that takes you to the Solution page" class="menu-link main-menu-active" href="fadder_info.html">Mentor</a>
                 </li>
                 <li>
                     <a title="This is a button that takes you to the FAQ page" class="menu-link" href="faq.html">FAQ</a>
@@ -55,71 +146,82 @@
         <div class="container content-margin">
             <div class="row">
                 <div class="col-12">
-                    <h2>Becoming a mentor</h2>
+                    <h2 class="mentor-title">Becoming a mentor</h2>
                 </div>
                 <div class="col-12">
-                    <p>
-                        To help children and adolecents we depend on volunteers. If you want to volunteer, follow the steps below and leave your e-mail at the bottom of the page!
+                    <p class="mentor-subtitle">
+                        To help children and adolecents we depend on volunteers, if you are interested in helping you can leave your email at the
+                        bottom of the page and we will contact you when the service becomes available.
                     </p>
 
                 </div>
                 <div class="text-center">
-                    <img alt="This is a picture that shows all the steps to become a mentor" class="standard-img" src="img/fadder.png">
+                    <img alt="This is a picture that shows all the steps to become a mentor" class="standard-img fadder-steps" src="img/fadder.png">
+                </div>
+
+                <div class="text-center">
+                    <img alt="This is a picture that shows all the steps to become a mentor" class="standard-img fadder-steps-mobile" src="img/fadder-mobil.png">
                 </div>
 
                 <h2 class="text-center title-margin">Meet our Mentors!</h2>
-                <div class="col-6">
+                <div class="col-6 text-center">
                     <div class="fadder-box">
                         <p class="fadder-navn" font-weight="500">Kristoffer Farstad</p>
-                        <p class="fadder-info">He is studying computer-engineering at HiOA.</p>   
+                        <p class="fadder-info">He is studying computer-engineering at HiOA.</p>
                         <img alt="This is a picture of Kristoffer Farstad" class="standard-img fadder-img" src="img/fadder/fadder2.jpg">
-                        <ul><p>Interests:</p>
-                            <li>Football: <img class="img-star" src="img/5av5.png"></li>
-                            <li>Computer gaming: <img class="img-star" src="img/4av5.png"></li>
-                            <li>Hiking: <img class="img-star" src="img/4av5.png"></li>
+                        <ul class="mentor-stats-list">
+                            <li>Football:
+                                <img class="img-star" src="img/5av5.png">
+                            </li>
+                            <li>Gaming:
+                                <img class="img-star" src="img/4av5.png">
+                            </li>
+                            <li>Hiking:
+                                <img class="img-star" src="img/4av5.png">
+                            </li>
                         </ul>
-                        
+
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-center">
                     <div class="fadder-box">
                         <p class="fadder-navn">Håkon Åreskjold</p>
                         <p class="fadder-info">He is studying Information Technology at HioA.</p>
                         <img alt="This is a picture of Håkon Åreskjold" class="standard-img fadder-img" src="img/fadder/fadder.jpg">
-                        <ul><p>Interests:</p>
-                            <li>Cooking: <img class="img-star" src="img/4av5.png"></li>
-                            <li>Photography: <img class="img-star" src="img/5av5.png"></li>
-                            <li>Directing movies: <img class="img-star" src="img/5av5.png"></li>
+                        <ul class="mentor-stats-list">
+                            <li>Cooking:&nbsp;&nbsp;&nbsp;   
+                                <img class="img-star" src="img/4av5.png">
+                            </li>
+                            <li>Photography:
+                                <img class="img-star" src="img/5av5.png">
+                            </li>
+                            <li>Rock climbing:
+                                <img class="img-star" src="img/5av5.png">
+                            </li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
             <div>
                 <div class="contribution">
-                    <h2>Contributions</h2>
-                    <p> If you want to contribute, either as a mentor or financially, enter your email and we will notify you
-                        when the app goes live</p>
-                
-                    <div id="getNotified">
-                        <form action="">
+                    <h2>Interested in becoming a mentor?</h2>
 
-                            <input type="text Your email" id="inputEmail" name="email" value="Your email">
 
-                            <input type="submit" value="Get notified">
+                    <div id="getNotified" class="text-center">
+                        <form>
+                            <input class="notify-field" type="text Your email" name="email" placeholder="enter email address">
+
+                            <a class="notify-button" href="#" onclick="javascript:return false;">Notify me</a>
                         </form>
                     </div>
+                    <p>Leave your email address here and we will contact you as soon as the service goes live.</p>
                 </div>
             </div>
         </div>
         <!-- Content End -->
 
         <!-- Footer Start -->
-        <footer>
-            <div class="footer">
-                <h3> Webproject 2017 | HiOA</h3>
-            </div>
-        </footer>
         <!-- Footer End -->
 
     </body>
