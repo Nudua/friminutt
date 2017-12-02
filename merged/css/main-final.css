@@ -53,10 +53,13 @@ li{
 }
 */
 
-.title-margin{
+.title-margin{ 				/* Title-margin til faddersiden */
 	margin-top: 70px;
 	margin-bottom: 50px;
 	
+}
+.margin-bottom{
+	margin-bottom: 10px;
 }
 .page-title{
 	color: #282828;
@@ -614,6 +617,10 @@ header {
 	font-size: 2em;
 /*	margin-top: 30px;
 */	text-align: center;
+}
+
+.solution-button{
+	margin-top: 20px;
 }
 
 /***** PROBLEM *****/
