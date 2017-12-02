@@ -1463,3 +1463,7 @@ headerBox{
 }
 
 /* Solution css end */
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
