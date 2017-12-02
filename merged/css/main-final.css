@@ -433,6 +433,10 @@ ul.mobile-menu-dropdown {
     color:white;
 }
 
+.menu-link:focus {
+    border: solid white 2px;
+}
+
 header {
     margin-top: 30px;
     text-shadow: 1px 1px 1px #000;
