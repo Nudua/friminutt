@@ -19,39 +19,90 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
 	<style>
-		.solution-container {
-			text-align: center;
-		}
-
-		.solution-container > div > h2 {
-			color: #282828;
-			font-size: 3.5em;
-			margin-top: 14vh;
-		}
-
-		.solution-container > div > p {
-			font-size: 1.7em;
-		}
-
-		.solution-container > div > img {
-			width: 90%;
-			height: auto;
-		}
-
 		.text-right {
-			text-align: right;
+			text-align: left;
 		}
 
 		.text-left {
 			text-align: left;
 		}
 
+		.some-padding {
+			padding: 8px;
+		}
+
+
+
 		.float-right {
-			float: right;
+			float: none;
 		}
 
 		.float-left {
-			float: left;
+			float: none;
+		}
+
+		.solution-container {
+			text-align: center;
+		}
+
+		.solution-container>div>h2 {
+			font-size: 2.0em;
+			margin-top: 8px;
+		}
+
+		.solution-container>div>p {
+			font-size: 1.15em;
+		}
+
+
+		.solution-container>div>img {
+			width: 90%;
+			height: auto;
+		}
+
+
+		.solution-mobile-only {
+			display: inherit;
+		}
+
+		.solution-desktop-only {
+			display: none;
+		}
+
+		@media only screen and (min-width: 768px) {
+			.solution-container>div>img {
+				width: 90%;
+				height: auto;
+			}
+
+			.solution-container>div>h2 {
+				font-size: 3.5em;
+				margin-top: 14vh;
+			}
+
+			.solution-container>div>p {
+				font-size: 1.7em;
+			}
+
+			.text-right {
+				text-align: right;
+			}
+
+			.solution-desktop-only {
+				display: inherit;
+			}
+
+			.solution-mobile-only {
+				display: none;
+			}
+
+			.float-right {
+				float: right;
+			}
+
+			.float-left {
+				float: left;
+			}
 		}
 	</style>
 
@@ -85,7 +136,7 @@
 		<div class="header-title">
 			<h1 class="page-title">Solving the puzzle</h1>
 		</div>
-		<div class="container">
+		<div class="container some-padding">
 			<div class="row">
 				<div class="col-12 phone-text-center">
 					<p>Friminutt is an app that connects children and teenagers with mentors, with the aim to make everyone's lives a little
@@ -103,11 +154,17 @@
 		<div class="container section-color">
 			<div class="row solution-container">
 
-				<div class="col-6">
-					<img class="float-right" alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can get a mentor" src="img/phone/phone-getmentor.png">
+				<div class="col-6 solution-mobile-only">
+					<h2 class="text-left">Welcome to Friminutt</h2>
+					<p class="text-left">After log in, you can find your own mentor.</p>
 				</div>
 
 				<div class="col-6">
+					<img class="float-right" alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can get a mentor"
+					 src="img/phone/phone-getmentor.png">
+				</div>
+
+				<div class="col-6 solution-desktop-only">
 					<h2 class="text-left">Welcome to Friminutt</h2>
 					<p class="text-left">After log in, you can find your own mentor.</p>
 				</div>
@@ -123,7 +180,8 @@
 					<p class="text-right"> control your own spare time.</p>
 				</div>
 				<div class="col-6">
-					<img alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online." class="float-left" src="img/phone/phone-home.png">
+					<img alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online."
+					 class="float-left" src="img/phone/phone-home.png">
 				</div>
 			</div>
 		</div>
@@ -132,13 +190,18 @@
 
 		<div class="container section-color">
 			<div class="row solution-container">
-					<div class="col-6">
-						<img class="float-right" alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online." src="img/phone/phone-start.png">
-					</div>
-					<div class="col-6">
-						<h2 class="text-left">Connect with your mentor</h2>
-						<p class="text-left">Chat with your mentor, or send a message if your mentor is offline.</p>
-					</div>
+				<div class="col-6 solution-mobile-only">
+					<h2 class="text-left">Connect with your mentor</h2>
+					<p class="text-left">Chat with your mentor, or send a message if your mentor is offline.</p>
+				</div>
+				<div class="col-6">
+					<img class="float-right" alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online."
+					 src="img/phone/phone-start.png">
+				</div>
+				<div class="col-6 solution-desktop-only">
+					<h2 class="text-left">Connect with your mentor</h2>
+					<p class="text-left">Chat with your mentor, or send a message if your mentor is offline.</p>
+				</div>
 			</div>
 		</div>
 
@@ -146,16 +209,16 @@
 
 		<div class="container">
 			<div class="row solution-container">
-				
-					<div class="col-6">
-						<h2 class="text-right">A social experience</h2>
-						<p class="text-right">Talk with your mentor and plan activities.</p>
-					</div>
-					<div class="col-6">
-						<img alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online."
-						 class="float-left" src="img/phone/phone-chat.png">
-					</div>
-				
+
+				<div class="col-6">
+					<h2 class="text-right">A social experience</h2>
+					<p class="text-right">Talk with your mentor and plan activities.</p>
+				</div>
+				<div class="col-6">
+					<img alt="A Picture of a smart phone with the App Friminutt. The app shows a page where you can see if your mentor is online."
+					 class="float-left" src="img/phone/phone-chat.png">
+				</div>
+
 			</div>
 		</div>
 
@@ -173,7 +236,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-12 text-center">
+				<div class="col-12 text-center some-padding">
 					<img alt="A picture of a mentor and a mentee, having fun." class="tegning-img" src="img/solution/happy.png">
 				</div>
 			</div>

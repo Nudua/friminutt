@@ -63,7 +63,7 @@ li{
 }
 .page-title{
 	color: #282828;
-	font-size: 3.7em;
+	font-size: 3.5em;
 	font-weight: 600;
 	text-align: center;
 	margin-top: 70px;
@@ -670,12 +670,19 @@ header {
 }
 
 .problem-img {
-    max-width: 80%;
+    width: 100%;
     height: auto;
 }
 .problem-img-2 {
     width: 60%;
     height: auto;
+}
+
+@media (min-width: 768px) { 
+    .problem-img {
+        width: 80%;
+        height: auto;
+    }
 }
 
 .problem-text{
