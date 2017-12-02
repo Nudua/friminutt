@@ -883,15 +883,16 @@ footer{
 	color: #fff;
 
 }
+
 div.tilbakeTil{
    position: fixed;
-   right: 4px;
-   bottom: 4px;
+   right: 8px;
+   bottom: 8px;
 }
 
 img#arrowUp{
-    width: 2.5em;
-   height: 2.5em;
+    width: 3.0em;
+   height: 3.0em;
 }
 
 @media (min-width : 768px) { 
@@ -1334,6 +1335,10 @@ headerBox{
     font-size: 1em;
 }
 
+.notify-button:focus {
+    border: solid 4px orange;
+}
+
 .notify-field {
     font-size: 1em;
     padding-top: 10px;
@@ -1342,6 +1347,10 @@ headerBox{
     padding-right: 6px;
     margin-right: 8px;
     border: solid 1px #ccc;
+}
+
+.notify-field:focus {
+    border: solid 4px orange;
 }
 
 .contribution {
