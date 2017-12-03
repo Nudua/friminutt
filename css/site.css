@@ -1089,3 +1089,12 @@ input {
     margin: auto;
     width: auto;
 }
+
+.kb-span {
+    position:absolute; 
+    top:-72px;
+}
+
+.kb-before {
+    position: relative;
+}
