@@ -50,11 +50,12 @@
                 </div>
                 <div class="getapp">
                     <form id="subscribeForm">
-                        <input title="This is a textbox for your email address. If you want to subscribe to friminutt enter you email address here then press enter or tab to find the submit button" id="subscribeInput" class="notify-field" type="text" name="email" placeholder="enter email address">
+                        <input name="emailaddress" id="subscribeInput" class="notify-field" type="text" name="email" placeholder="enter email address">
 
-                        <input title="This is the submit button. Press this to subscribe with the email address you entered" type="submit" class="notify-button" onsubmit="subscribeToUpdates();return false;" value="submit">
+                        <input type="submit" class="notify-button" onsubmit="subscribeToUpdates();" value="submit">
+                        <label for="emailaddress">Subscribe to be the first.</label>
                     </form>
-                    <p>Subscribe to be the first.</p>
+                    
                 </div>
             </div>
 

@@ -948,10 +948,11 @@ headerBox{
     */
     margin-top: 12px;
 }
-.getapp > p {
+.getapp > form > label {
     margin-top: 4px;
     color:white;
     text-align: left;
+    display: block;
 }
 
 /* Solution css */
