@@ -1067,3 +1067,25 @@ input {
     font-size: 1.15em;
     margin-top: 8px;
 }
+
+.keyboard-link {
+    position: fixed;
+    top:0;
+    z-index: 101;
+    color:white;
+
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+
+.keyboard-link:focus {
+    border: solid orange 4px;
+    clip: none;
+    height: auto;
+    margin: auto;
+    width: auto;
+}
